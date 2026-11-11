@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 1,
-  "issued_at": "2026-11-11T07:32:00Z",
+  "sequence": 2,
+  "issued_at": "2026-11-11T08:17:27Z",
   "agents": {
     "aider": [
       {
@@ -20,6 +20,14 @@
         "measured": "capture tests of each release in run 42974410438, 2026-11-11, on macOS arm64",
         "platforms": [
           "macos"
+        ]
+      },
+      {
+        "first": "2.1.319",
+        "last": "2.1.322",
+        "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
+        "platforms": [
+          "linux"
         ]
       },
       {
@@ -48,6 +56,14 @@
         "measured": "capture tests of each release in run 42974410438, 2026-11-11, on macOS arm64",
         "platforms": [
           "macos"
+        ]
+      },
+      {
+        "first": "0.167.0",
+        "last": "0.167.1",
+        "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
+        "platforms": [
+          "linux"
         ]
       },
       {
@@ -88,6 +104,14 @@
         "platforms": [
           "macos"
         ]
+      },
+      {
+        "first": "1.59.0",
+        "last": "1.59.0",
+        "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
       }
     ],
     "grok": [
@@ -115,6 +139,14 @@
         "measured": "capture tests of each release in run 42974410438, 2026-11-11, on Windows x64",
         "platforms": [
           "windows"
+        ]
+      },
+      {
+        "first": "0.23.1",
+        "last": "0.23.1",
+        "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
+        "platforms": [
+          "linux"
         ]
       }
     ],
@@ -156,6 +188,14 @@
         ]
       },
       {
+        "first": "1.5.0",
+        "last": "1.5.2",
+        "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
         "first": "1.5.2",
         "last": "1.5.2",
         "measured": "capture tests of each release in run 42974410438, 2026-11-11, on Windows x64",
@@ -171,6 +211,14 @@
         "measured": "capture tests of each release in run 42974410438, 2026-11-11, on macOS arm64",
         "platforms": [
           "macos"
+        ]
+      },
+      {
+        "first": "0.26.9",
+        "last": "0.27.2",
+        "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
+        "platforms": [
+          "linux"
         ]
       },
       {
