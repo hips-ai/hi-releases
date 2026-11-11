@@ -1,0 +1,763 @@
+{
+  "format": 1,
+  "sequence": 1,
+  "issued_at": "2026-11-11T21:41:21Z",
+  "results": [
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "gemma-4-31b-it",
+      "model_revision": "gemma-4-31b-it-842da379",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:37:25Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pmc3ezcbeqk0m7khaf03",
+        "req_01m768pmhrea28vyy1d04ytrt5"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "gemma-4-31b-it",
+      "model_revision": "gemma-4-31b-it-842da379",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:37:25Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pnadef6rjd60dkg8g4rw"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "gemma-4-31b-it",
+      "model_revision": "gemma-4-31b-it-842da379",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:37:27Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pq7wehvas5zg2cr8kztn",
+        "req_01m768pqa3e3xv88ttra5yrmhn",
+        "req_01m768pqbpesgtzecz4egrbb73"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "gemma-4-e4b-it-8b",
+      "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:37:29Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768prznekw80y3wy5cf1xat",
+        "req_01m768ps2vew6smd5tcpf9cm4k"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "gemma-4-e4b-it-8b",
+      "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:37:30Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pstyev6v53024ya8sz93"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "gemma-4-e4b-it-8b",
+      "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:37:32Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pvqjechsy4w1r084ybwa",
+        "req_01m768pvsvez1st9ns5drypbw8",
+        "req_01m768pvvfe0yvvcs05jx3th6y"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "gpt-oss-120b",
+      "model_revision": "gpt-oss-120b-b5c939de",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:37:33Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pwsne5t9zr46vd1mnp0f",
+        "req_01m768px0denbsx0sn575yfwsq"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "gpt-oss-120b",
+      "model_revision": "gpt-oss-120b-b5c939de",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:37:34Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pxpqenxayzcxa7wmcr40"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "gpt-oss-120b",
+      "model_revision": "gpt-oss-120b-b5c939de",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:37:36Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768pzp3ejts221va78mz2b0",
+        "req_01m768pzrme4brfjhrtzgn89kz",
+        "req_01m768pzryec6a518jgpyh2wf5"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "gpt-oss-20b",
+      "model_revision": "gpt-oss-20b-6cee5e81",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:23Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768q0r6edfbyx59xbptgk54",
+        "req_01m768q0y0ejdbhbm5yys7bbjz"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "gpt-oss-20b",
+      "model_revision": "gpt-oss-20b-6cee5e81",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:24Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768w3qne17skye465j4rtjb"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "gpt-oss-20b",
+      "model_revision": "gpt-oss-20b-6cee5e81",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:26Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768w5paev5tsm04h22v5rm2",
+        "req_01m768w5rqezz839zppbczp0f4",
+        "req_01m768w5t6ex8vxva01hczn1rh"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "granite-4.2-8b",
+      "model_revision": "granite-4.2-8b-a7042144",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:27Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768w6rne1bs6s1cgpfhk8bh",
+        "req_01m768w6w7e0n8dda8cxm2x4sd"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "granite-4.2-8b",
+      "model_revision": "granite-4.2-8b-a7042144",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:28Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768w7kbetps4m6a568bbkjn"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "granite-4.2-8b",
+      "model_revision": "granite-4.2-8b-a7042144",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:30Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768w9g3egx8hfcsp58y0t48",
+        "req_01m768w9jder0r8zrds1etnvd5",
+        "req_01m768w9mhetrbkeknb7m20jbz"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "mistral-nemo-instruct-2407-12b",
+      "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:31Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wakke3j946q6dzmaazkm",
+        "req_01m768waswezkrxfkw12xkng9r"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "mistral-nemo-instruct-2407-12b",
+      "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:32Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wbjceypb10jtxtj7ckz8"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "mistral-nemo-instruct-2407-12b",
+      "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:34Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wdfeeepr4c4kvetkb64p",
+        "req_01m768wdhrem893var4hwxmvsg",
+        "req_01m768wdjme6wbjdhedsmsfz67"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "north-mini-code-1.0-30b",
+      "model_revision": "north-mini-code-1.0-30b-d11e61a8",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:35Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768weebexjbzha1k22sj1ya",
+        "req_01m768wemkey7r88qwfpg03gws"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "north-mini-code-1.0-30b",
+      "model_revision": "north-mini-code-1.0-30b-d11e61a8",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:36Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wfbkeq3sjqbzn006pt5f"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "north-mini-code-1.0-30b",
+      "model_revision": "north-mini-code-1.0-30b-d11e61a8",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:38Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768whategfadsv84s15jr9p",
+        "req_01m768whdbeqxsnvbey319nzte",
+        "req_01m768whepebj9w9zmrfecnxg4"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "qwen2.5-7b-instruct",
+      "model_revision": "qwen2.5-7b-instruct-a09a3545",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:39Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wjc3enp9r8bawjkbkvs3",
+        "req_01m768wjjbebfsz065nzxy43ry"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "qwen2.5-7b-instruct",
+      "model_revision": "qwen2.5-7b-instruct-a09a3545",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:40Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wk7xensrancn2ksww2sz"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "qwen2.5-7b-instruct",
+      "model_revision": "qwen2.5-7b-instruct-a09a3545",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:42Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wn7ee17vrvcbvfb73sr8",
+        "req_01m768wn9sem1s7bjv0rcbq86e",
+        "req_01m768wna9en4b6ddhbswh7edk"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "qwen3-14b",
+      "model_revision": "qwen3-14b-40c06982",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:43Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wp8zebcsyrjmzr7rkgqh",
+        "req_01m768wpbzeetbvwcj8ewmrv4m"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "qwen3-14b",
+      "model_revision": "qwen3-14b-40c06982",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:44Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wq18efht8pkgg515w1md"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "qwen3-14b",
+      "model_revision": "qwen3-14b-40c06982",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:46Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wrzte38b7ye7vh2t9mk3",
+        "req_01m768ws2aeawsw46ebef9j80c",
+        "req_01m768ws2ke1p8aamn4brf9rxv"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "qwen3-235b-a22b-instruct-2507-fp8",
+      "model_revision": "qwen3-235b-a22b-instruct-2507-fp8-e156cb4e",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:47Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wszfe5s95h43s7xqk4jk",
+        "req_01m768wt2begb9bp931xhz596w"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "qwen3-235b-a22b-instruct-2507-fp8",
+      "model_revision": "qwen3-235b-a22b-instruct-2507-fp8-e156cb4e",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:48Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wtqve1k99gyxxv69vdd0"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "qwen3-235b-a22b-instruct-2507-fp8",
+      "model_revision": "qwen3-235b-a22b-instruct-2507-fp8-e156cb4e",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:50Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wwnqeveajbn9z6ke4v8t",
+        "req_01m768wwr5ed29d25xwm90d66z",
+        "req_01m768wwrgeb6bn1gbjmejjdhg"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "qwen3-30b-a3b-instruct-2507-fp8",
+      "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:51Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wxqjepd9vjeh4efv46yq",
+        "req_01m768wxxmes08yzxc2pfgwtth"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "qwen3-30b-a3b-instruct-2507-fp8",
+      "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:52Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768wymxem58p0xbdnkarspr"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "qwen3-30b-a3b-instruct-2507-fp8",
+      "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:54Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768x0kte1erhtyvknk3x391",
+        "req_01m768x0p8ek087yrt8eevgxgv",
+        "req_01m768x0qsewe93dy2ejnhewvh"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "qwen3-32b",
+      "model_revision": "qwen3-32b-9216db57",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:55Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768x1jpetyvd4vaa8p8c7xs",
+        "req_01m768x1nfem38vshnen7ycrhx"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "qwen3-32b",
+      "model_revision": "qwen3-32b-9216db57",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:40:55Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768x2cpe8msnmn8v21fdah4"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "qwen3-32b",
+      "model_revision": "qwen3-32b-9216db57",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:57Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768x4acesca00j4jhp39w3d",
+        "req_01m768x4ctemasshs5ah2rs0ge",
+        "req_01m768x4d7eat8m5ekk067kd9e"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "qwen3.6-40b-uncensor",
+      "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-11T21:40:59Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768x5e1escb4z8n2j442991",
+        "req_01m768x5jwe4ebymm6zkw61tsk"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "qwen3.6-40b-uncensor",
+      "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
+      "pool": "community",
+      "result": "fail",
+      "reason": "no_tool_call",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:40:59Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768x6bneh89zr0ees9evxf8"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "qwen3.6-40b-uncensor",
+      "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-11T21:41:17Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768x86ferns7fqfw9h93qyh",
+        "req_01m768x88tewxs6hszryh54gqy",
+        "req_01m768x8bqe2nr0ztcfhf8hry4"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.322",
+      "model": "qwen3.6-40b-uncensor-bc23dff6",
+      "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:41:18Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768xr08ekcrab370fak5nm0",
+        "req_01m768xr3cef6tdnqcxzkhk8w4"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.1",
+      "model": "qwen3.6-40b-uncensor-bc23dff6",
+      "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:41:18Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768xrvcehcbw7xthn4qahdv"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.2.7",
+      "model": "qwen3.6-40b-uncensor-bc23dff6",
+      "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
+      "pool": "community",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-11T21:41:20Z",
+      "run": 43104447916,
+      "request_ids": [
+        "req_01m768xtsdes7r7wgdtp28wec3",
+        "req_01m768xtvtetyvfghyw0y8cccz",
+        "req_01m768xtwbe1brwgva46q3920x"
+      ],
+      "measured_on": "linux"
+    }
+  ]
+}
