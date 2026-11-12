@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 3,
-  "issued_at": "2026-11-12T07:30:56Z",
+  "sequence": 4,
+  "issued_at": "2026-11-12T16:56:05Z",
   "results": [
     {
       "agent": "claude",
@@ -24,17 +24,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:37:25Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:54:17Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768pnadef6rjd60dkg8g4rw"
+        "req_01m78awxpkeay8g1yn4mwe1fag"
       ],
       "measured_on": "linux"
     },
@@ -78,17 +78,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "gemma-4-e4b-it-8b",
       "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:37:30Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:54:21Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768pstyev6v53024ya8sz93"
+        "req_01m78ax1yee89vm8r84rz7t6pa"
       ],
       "measured_on": "linux"
     },
@@ -132,17 +132,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:37:34Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:54:26Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768pxpqenxayzcxa7wmcr40"
+        "req_01m78ax6k7e0eaxfkweacfs32y"
       ],
       "measured_on": "linux"
     },
@@ -172,31 +172,31 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:23Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-12T16:54:30Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768q0r6edfbyx59xbptgk54",
-        "req_01m768q0y0ejdbhbm5yys7bbjz"
+        "req_01m78axa5dex08264w15zd568a",
+        "req_01m78axa9tez1t0ffcevj9ex3t"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:24Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:54:31Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768w3qne17skye465j4rtjb"
+        "req_01m78axbcdexk9b85r128dtnha"
       ],
       "measured_on": "linux"
     },
@@ -207,15 +207,15 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:26Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "relay_upstream",
+      "tested_at": "2026-11-12T16:55:07Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768w5paev5tsm04h22v5rm2",
-        "req_01m768w5rqezz839zppbczp0f4",
-        "req_01m768w5t6ex8vxva01hczn1rh"
+        "req_01m78axe6eev3bdtfg6jb2xfsh",
+        "req_01m78axgaeex2aez8c5p6b55aa",
+        "req_01m78axzyje43ae7xqdy7a2eck"
       ],
       "measured_on": "linux"
     },
@@ -240,17 +240,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "granite-4.2-8b",
       "model_revision": "granite-4.2-8b-a7042144",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:28Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:09Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768w7kbetps4m6a568bbkjn"
+        "req_01m78aygzxezpr0s80yk5659xs"
       ],
       "measured_on": "linux"
     },
@@ -294,17 +294,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "mistral-nemo-instruct-2407-12b",
       "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:32Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:13Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768wbjceypb10jtxtj7ckz8"
+        "req_01m78ayn2wev19mscn5z333fwf"
       ],
       "measured_on": "linux"
     },
@@ -348,17 +348,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "north-mini-code-1.0-30b",
       "model_revision": "north-mini-code-1.0-30b-d11e61a8",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:36Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:17Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768wfbkeq3sjqbzn006pt5f"
+        "req_01m78ays34e23t50gxbtjf13sj"
       ],
       "measured_on": "linux"
     },
@@ -403,17 +403,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:40Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:22Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768wk7xensrancn2ksww2sz"
+        "req_01m78ayx2me9d9jr7p7vm9x3px"
       ],
       "measured_on": "linux"
     },
@@ -444,31 +444,31 @@
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_value",
-      "tested_at": "2026-11-12T07:29:23Z",
-      "run": 43174951147,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-12T16:55:40Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m77ajjv9e2n8x0q9wtzpkvt1",
-        "req_01m77ajjxve67srmjpds05ex2q"
+        "req_01m78azex7emr9np47z61cqhgx",
+        "req_01m78azf5aeactgnejmxmpzpy3"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:44Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:41Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768wq18efht8pkgg515w1md"
+        "req_01m78azg5mentbsqcxjr7s4bbz"
       ],
       "measured_on": "linux"
     },
@@ -512,17 +512,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "qwen3-235b-a22b-instruct-2507-fp8",
       "model_revision": "qwen3-235b-a22b-instruct-2507-fp8-e156cb4e",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:48Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:45Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768wtqve1k99gyxxv69vdd0"
+        "req_01m78azm4be42b5q7m0s6feqr1"
       ],
       "measured_on": "linux"
     },
@@ -566,17 +566,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:52Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:50Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768wymxem58p0xbdnkarspr"
+        "req_01m78azs3sencbcbcng2v0bp6p"
       ],
       "measured_on": "linux"
     },
@@ -620,17 +620,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "qwen3-32b",
       "model_revision": "qwen3-32b-9216db57",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
       "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-11T21:40:55Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:54Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768x2cpe8msnmn8v21fdah4"
+        "req_01m78azx59ev0tq14jcge838h1"
       ],
       "measured_on": "linux"
     },
@@ -674,17 +674,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "qwen3.6-40b-uncensor",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "fail",
-      "reason": "no_tool_call",
+      "result": "not_run",
+      "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:59Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:55:59Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768x6bneh89zr0ees9evxf8"
+        "req_01m78b01gqe8p8qbpgec2xq7md"
       ],
       "measured_on": "linux"
     },
@@ -728,17 +728,17 @@
     {
       "agent": "codex",
       "agent_name": "Codex",
-      "agent_version": "0.167.1",
+      "agent_version": "0.167.2",
       "model": "qwen3.6-40b-uncensor-bc23dff6",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-11T21:41:18Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-12T16:56:03Z",
+      "run": 43263416399,
       "request_ids": [
-        "req_01m768xrvcehcbw7xthn4qahdv"
+        "req_01m78b05qyehftkx4n0py85ayd"
       ],
       "measured_on": "linux"
     },
