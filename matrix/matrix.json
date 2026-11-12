@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 2,
-  "issued_at": "2026-11-11T08:17:27Z",
+  "sequence": 3,
+  "issued_at": "2026-11-12T07:57:45Z",
   "agents": {
     "aider": [
       {
@@ -52,24 +52,24 @@
     "codex": [
       {
         "first": "0.162.1",
-        "last": "0.167.1",
-        "measured": "capture tests of each release in run 42974410438, 2026-11-11, on macOS arm64",
+        "last": "0.167.2",
+        "measured": "capture tests of each release in run 43174951147, 2026-11-12, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "0.167.0",
-        "last": "0.167.1",
-        "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
+        "last": "0.167.2",
+        "measured": "capture tests of each release in run 43174951147, 2026-11-12, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "0.167.1",
-        "last": "0.167.1",
-        "measured": "capture tests of each release in run 42974410438, 2026-11-11, on Windows x64",
+        "last": "0.167.2",
+        "measured": "capture tests of each release in run 43174951147, 2026-11-12, on Windows x64",
         "platforms": [
           "windows"
         ]
