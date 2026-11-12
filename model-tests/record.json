@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 2,
-  "issued_at": "2026-11-11T22:49:59Z",
+  "sequence": 3,
+  "issued_at": "2026-11-12T07:30:56Z",
   "results": [
     {
       "agent": "claude",
@@ -388,14 +388,15 @@
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:39Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-12T07:29:05Z",
+      "run": 43174951147,
       "request_ids": [
-        "req_01m768wjc3enp9r8bawjkbkvs3",
-        "req_01m768wjjbebfsz065nzxy43ry"
+        "req_01m77aedppeg8sc4z2gw3g672k",
+        "req_01m77aedvcerxa00cfree2qavg",
+        "req_01m77ahc55ems9vzg2v2cvc7p8"
       ],
       "measured_on": "linux"
     },
@@ -423,15 +424,16 @@
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:42Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-12T07:29:23Z",
+      "run": 43174951147,
       "request_ids": [
-        "req_01m768wn7ee17vrvcbvfb73sr8",
-        "req_01m768wn9sem1s7bjv0rcbq86e",
-        "req_01m768wna9en4b6ddhbswh7edk"
+        "req_01m77aj2xmej3bxen1z4n287p5",
+        "req_01m77aj2zne8br9h4qtg3reecf",
+        "req_01m77aj305er993fenxytyedc2",
+        "req_01m77aj9r6ejabarfbjk5052ep"
       ],
       "measured_on": "linux"
     },
@@ -442,14 +444,14 @@
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:43Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-12T07:29:23Z",
+      "run": 43174951147,
       "request_ids": [
-        "req_01m768wp8zebcsyrjmzr7rkgqh",
-        "req_01m768wpbzeetbvwcj8ewmrv4m"
+        "req_01m77ajjv9e2n8x0q9wtzpkvt1",
+        "req_01m77ajjxve67srmjpds05ex2q"
       ],
       "measured_on": "linux"
     },
