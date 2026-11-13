@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 6,
-  "issued_at": "2026-11-13T06:52:47Z",
+  "sequence": 7,
+  "issued_at": "2026-11-13T13:09:30Z",
   "results": [
     {
       "agent": "claude",
@@ -183,14 +183,13 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-13T06:10:50Z",
-      "run": 43376219382,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T12:30:39Z",
+      "run": 43424386092,
       "request_ids": [
-        "req_01m79rfeffe9k8svjpyn8wkyvh",
-        "req_01m79rfekme8hry7z8aebvf986"
+        "req_01m7adz65ne75aajv9sjjra6xj"
       ],
       "measured_on": "linux"
     },
@@ -201,13 +200,14 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "pass",
+      "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-13T06:10:50Z",
-      "run": 43376219382,
+      "tested_at": "2026-11-13T12:30:52Z",
+      "run": 43424386092,
       "request_ids": [
-        "req_01m79rffcreamsxr60qb7411ze"
+        "req_01m7ae6z5meevsg7et193g5s83",
+        "req_01m7ae75dqe61vv0ve1a3sc26r"
       ],
       "measured_on": "linux"
     },
@@ -218,15 +218,16 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-13T01:13:33Z",
-      "run": 43343035920,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-13T12:31:08Z",
+      "run": 43424386092,
       "request_ids": [
-        "req_01m797f3p4emxvp595yb42tc06",
-        "req_01m797f3sxe1haw3vqvrjayrfp",
-        "req_01m797f3t7e1wavjkh07e87pew"
+        "req_01m7ae7bqzenvba6zmqbb7e8b5",
+        "req_01m7ae7bw9ekbbgk4jcgj5c9va",
+        "req_01m7ae7bwseyxacw2qr2abscez",
+        "req_01m7ae7spmesdv7kf01ekmmdm7"
       ],
       "measured_on": "linux"
     },
@@ -496,14 +497,14 @@
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-13T06:31:49Z",
-      "run": 43376219382,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T12:47:50Z",
+      "run": 43424386092,
       "request_ids": [
-        "req_01m79snwngeyvvhzfvewa4qjq4",
-        "req_01m79snws9enmvbzeq30qth35q"
+        "req_01m7af6cjeerpb0qfjaqn934yr",
+        "req_01m7af6cqjeh1r41g6f1yh2ty4"
       ],
       "measured_on": "linux"
     },
@@ -514,13 +515,13 @@
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "fail",
+      "reason": "no_tool_call",
       "gateway_code": null,
-      "tested_at": "2026-11-13T06:31:50Z",
-      "run": 43376219382,
+      "tested_at": "2026-11-13T12:47:51Z",
+      "run": 43424386092,
       "request_ids": [
-        "req_01m79snxhfe0xsng2zsr0d46er"
+        "req_01m7af6dpjeckr05exjradnjn1"
       ],
       "measured_on": "linux"
     },
