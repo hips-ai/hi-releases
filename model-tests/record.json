@@ -1,23 +1,29 @@
 {
   "format": 1,
-  "sequence": 5,
-  "issued_at": "2026-11-13T01:14:20Z",
+  "sequence": 6,
+  "issued_at": "2026-11-13T06:52:47Z",
   "results": [
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:37:25Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:10:30Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768pmc3ezcbeqk0m7khaf03",
-        "req_01m768pmhrea28vyy1d04ytrt5"
+        "req_01m79r7hnceqebyaqgzh4a08ce",
+        "req_01m79r7hz8e9grexkaj5z61b97",
+        "req_01m79r7k9gehprj8sfjgww6f9q",
+        "req_01m79r7mk6e6z94y3kndm9hg27",
+        "req_01m79r7q57ev9s6jtpqsvxcmcc",
+        "req_01m79r7vgfeb79j3t4hw4ctmbt",
+        "req_01m79r8573eewvfmj7fz1cg567",
+        "req_01m79r8qrqef1vhg06skwd2awr"
       ],
       "measured_on": "linux"
     },
@@ -30,11 +36,16 @@
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:54:17Z",
-      "run": 43263416399,
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:10:38Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78awxpkeay8g1yn4mwe1fag"
+        "req_01m79revx7e7h938z9f6kd2qhc",
+        "req_01m79rewbne1ksarpsevgg0780",
+        "req_01m79rewyxepyspmvqy7x5sbj0",
+        "req_01m79rexzbe0jvk2cwp4eaap0b",
+        "req_01m79rezmgewtakkta74s6qp2j",
+        "req_01m79rf2xse1aa70x8b7njkqs0"
       ],
       "measured_on": "linux"
     },
@@ -45,33 +56,33 @@
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:37:27Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:10:40Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768pq7wehvas5zg2cr8kztn",
-        "req_01m768pqa3e3xv88ttra5yrmhn",
-        "req_01m768pqbpesgtzecz4egrbb73"
+        "req_01m79rf4yme9aaq61z9qfcrdg3",
+        "req_01m79rf51aex19k7get6awsd7p",
+        "req_01m79rf54ce00r6mr8xbc3dbym"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "gemma-4-e4b-it-8b",
       "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
       "pool": "community",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-11T21:37:29Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-13T06:10:41Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768prznekw80y3wy5cf1xat",
-        "req_01m768ps2vew6smd5tcpf9cm4k"
+        "req_01m79rf65me2b9zghs87sg7rcf",
+        "req_01m79rf6axe4avfyrk22phyg3v"
       ],
       "measured_on": "linux"
     },
@@ -82,13 +93,13 @@
       "model": "gemma-4-e4b-it-8b",
       "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:54:21Z",
-      "run": 43263416399,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T06:10:42Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78ax1yee89vm8r84rz7t6pa"
+        "req_01m79rf73pecqs76em3rbfn1qn"
       ],
       "measured_on": "linux"
     },
@@ -114,18 +125,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "community",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-11T21:37:33Z",
-      "run": 43104447916,
+      "tested_at": "2026-11-13T06:10:45Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768pwsne5t9zr46vd1mnp0f",
-        "req_01m768px0denbsx0sn575yfwsq"
+        "req_01m79rfa8jemkb3tnkeqmkdhdk",
+        "req_01m79rfaf2ehfadmgexr4kvrsc"
       ],
       "measured_on": "linux"
     },
@@ -136,13 +147,13 @@
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:54:26Z",
-      "run": 43263416399,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T06:10:46Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78ax6k7e0eaxfkweacfs32y"
+        "req_01m79rfbawe96b71fxx61pnwkv"
       ],
       "measured_on": "linux"
     },
@@ -168,18 +179,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-13T01:13:30Z",
-      "run": 43343035920,
+      "tested_at": "2026-11-13T06:10:50Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m797f0ene6fs82184pgn4ahq",
-        "req_01m797f0keeszvanha7v6j24z7"
+        "req_01m79rfeffe9k8svjpyn8wkyvh",
+        "req_01m79rfekme8hry7z8aebvf986"
       ],
       "measured_on": "linux"
     },
@@ -190,13 +201,13 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:54:31Z",
-      "run": 43263416399,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T06:10:50Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78axbcdexk9b85r128dtnha"
+        "req_01m79rffcreamsxr60qb7411ze"
       ],
       "measured_on": "linux"
     },
@@ -222,35 +233,46 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
-      "model": "granite-4.2-8b",
-      "model_revision": "granite-4.2-8b-a7042144",
-      "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:27Z",
-      "run": 43104447916,
-      "request_ids": [
-        "req_01m768w6rne1bs6s1cgpfhk8bh",
-        "req_01m768w6w7e0n8dda8cxm2x4sd"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "codex",
-      "agent_name": "Codex",
-      "agent_version": "0.167.2",
+      "agent_version": "2.1.323",
       "model": "granite-4.2-8b",
       "model_revision": "granite-4.2-8b-a7042144",
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:09Z",
-      "run": 43263416399,
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:14:53Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78aygzxezpr0s80yk5659xs"
+        "req_01m79rfjssewtt8xnx9eh0hrs4",
+        "req_01m79rfk1ceqgsa4608jgm0qrh",
+        "req_01m79rfmake9gtd9jsxmxy8512",
+        "req_01m79rfnkxe33987j5n040pc80",
+        "req_01m79rfqyhe81smp3sjew8q0gc",
+        "req_01m79rfwn8ee2ssn9hb6jqx8nh",
+        "req_01m79rg6d0e1rrf75kk9p5terc",
+        "req_01m79rgq18emet6hajmxtgqeft"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.167.2",
+      "model": "granite-4.2-8b",
+      "model_revision": "granite-4.2-8b-a7042144",
+      "pool": "community",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:15:01Z",
+      "run": 43376219382,
+      "request_ids": [
+        "req_01m79rpwt6e8abmq4tmqrqkbda",
+        "req_01m79rpx9ke3b88w06h88qfx6r",
+        "req_01m79rpxxbe02a46xy1h3b3xt3",
+        "req_01m79rpz0zer39vkqcpabnv0ea",
+        "req_01m79rq0q5eefvn7c8f5gb3cjk",
+        "req_01m79rq41pez8b9092sydw6bes"
       ],
       "measured_on": "linux"
     },
@@ -261,33 +283,39 @@
       "model": "granite-4.2-8b",
       "model_revision": "granite-4.2-8b-a7042144",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:30Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:15:03Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768w9g3egx8hfcsp58y0t48",
-        "req_01m768w9jder0r8zrds1etnvd5",
-        "req_01m768w9mhetrbkeknb7m20jbz"
+        "req_01m79rq636e83syvdnms3cvh8s",
+        "req_01m79rq660e4n8d7qvw39v8d6x",
+        "req_01m79rq66qesmrvamg4t35ed75"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "mistral-nemo-instruct-2407-12b",
       "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:31Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:19:03Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768wakke3j946q6dzmaazkm",
-        "req_01m768waswezkrxfkw12xkng9r"
+        "req_01m79rq7bjece9ahmwdnhn638a",
+        "req_01m79rq7jqedkvf8ezckfxjx6y",
+        "req_01m79rq8x7eqnbbdz66157q03t",
+        "req_01m79rqa6tefksbsan8ffcmja3",
+        "req_01m79rqchse53bpjpst9gg6nws",
+        "req_01m79rqhr8ef8s3bbskzh8m0ft",
+        "req_01m79rqv1gez0vye3gv52bc2xj",
+        "req_01m79rrctxedfvdx3qv2sgpf3j"
       ],
       "measured_on": "linux"
     },
@@ -300,11 +328,16 @@
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:13Z",
-      "run": 43263416399,
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:19:12Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78ayn2wev19mscn5z333fwf"
+        "req_01m79ryhp2edkvz2jwmq39ydk9",
+        "req_01m79ryj4ge75vk30ysbvc3jd0",
+        "req_01m79ryjqxerfrewmv8w2a2k7t",
+        "req_01m79rykqxe07v592dt0pes41s",
+        "req_01m79rynbre2dbqjv2xh096e0z",
+        "req_01m79ryrr1e4wrhzjemd8tsjnd"
       ],
       "measured_on": "linux"
     },
@@ -315,33 +348,39 @@
       "model": "mistral-nemo-instruct-2407-12b",
       "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:34Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:19:14Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768wdfeeepr4c4kvetkb64p",
-        "req_01m768wdhrem893var4hwxmvsg",
-        "req_01m768wdjme6wbjdhedsmsfz67"
+        "req_01m79rytr0e18bj3qjb7bnhs5q",
+        "req_01m79rytv7ehbb4zvzwpega0tz",
+        "req_01m79rytx3e4cr1yshcwt688s1"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "north-mini-code-1.0-30b",
       "model_revision": "north-mini-code-1.0-30b-d11e61a8",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:35Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:23:14Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768weebexjbzha1k22sj1ya",
-        "req_01m768wemkey7r88qwfpg03gws"
+        "req_01m79ryvzee8f8ysxps9zkdpc2",
+        "req_01m79ryw67ex7beadr3qevvtvs",
+        "req_01m79ryxg6etj8vew3nhgh5ar9",
+        "req_01m79ryyt6e2er7nqjfabrf4ma",
+        "req_01m79rz1efetvberswfd5bzdcd",
+        "req_01m79rz6ddegf8exfsbw178chx",
+        "req_01m79rzfbreq2vt55n1aps2p89",
+        "req_01m79s02zted1vk5ew9machfvk"
       ],
       "measured_on": "linux"
     },
@@ -354,11 +393,16 @@
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:17Z",
-      "run": 43263416399,
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:23:22Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78ays34e23t50gxbtjf13sj"
+        "req_01m79s6689ex4rx2p0e4ba7ne4",
+        "req_01m79s66p1emevm4gz22tsjv85",
+        "req_01m79s67c7eh6v29zpfnbyfwed",
+        "req_01m79s68dye1svswpwbvwpt7dm",
+        "req_01m79s6acce4ktr167bkg5k692",
+        "req_01m79s6dp7eresmt32gcs0k0v9"
       ],
       "measured_on": "linux"
     },
@@ -369,33 +413,38 @@
       "model": "north-mini-code-1.0-30b",
       "model_revision": "north-mini-code-1.0-30b-d11e61a8",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:38Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:27:38Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768whategfadsv84s15jr9p",
-        "req_01m768whdbeqxsnvbey319nzte",
-        "req_01m768whepebj9w9zmrfecnxg4"
+        "req_01m79s6fr9e0yr5vd8q4t2g01j",
+        "req_01m79s6fwqekbsrscc0dmja334"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-13T01:13:50Z",
-      "run": 43343035920,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:31:38Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m797fm73eeqrzqv3efdx3vxp",
-        "req_01m797fmd3e8xa730gwjb4wkb1"
+        "req_01m79se7vyezca9nh8s4kaghgm",
+        "req_01m79se818e07af04acrnyrxjs",
+        "req_01m79se9cpe2c9f7gs7phyhp7g",
+        "req_01m79seapxexkbxs9wcfet21ck",
+        "req_01m79sed3ze07ss3nwh026e1g8",
+        "req_01m79sej2nexhaq614ha644x3c",
+        "req_01m79sevb3essbw71y6dg29mya",
+        "req_01m79sfc22eb2b1f650xk56mv0"
       ],
       "measured_on": "linux"
     },
@@ -408,11 +457,16 @@
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:22Z",
-      "run": 43263416399,
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:31:46Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78ayx2me9d9jr7p7vm9x3px"
+        "req_01m79snj1nehx96fbq846478sa",
+        "req_01m79snjfzeafrgh8ye8dtc370",
+        "req_01m79snk7ee8cr7n8yjh5qh70w",
+        "req_01m79snm8re4mtgvb3m53mkr28",
+        "req_01m79snp4pe2etd8z9m1ragxb4",
+        "req_01m79snsfweqwta71c2e23rh23"
       ],
       "measured_on": "linux"
     },
@@ -423,33 +477,33 @@
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-13T01:13:55Z",
-      "run": 43343035920,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:31:48Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m797fse9ejm9x22evexsttbj",
-        "req_01m797fsjbeaeahgjvtwkkbn5w",
-        "req_01m797fsjxe1z8ecf7cdq869z5"
+        "req_01m79snveke23synbpy8dkp347",
+        "req_01m79snvgpewh83wrse5m1dcjv",
+        "req_01m79snvnce8p9jmw30n4b4pgy"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-12T16:55:40Z",
-      "run": 43263416399,
+      "tested_at": "2026-11-13T06:31:49Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78azex7emr9np47z61cqhgx",
-        "req_01m78azf5aeactgnejmxmpzpy3"
+        "req_01m79snwngeyvvhzfvewa4qjq4",
+        "req_01m79snws9enmvbzeq30qth35q"
       ],
       "measured_on": "linux"
     },
@@ -460,13 +514,13 @@
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:41Z",
-      "run": 43263416399,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T06:31:50Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78azg5mentbsqcxjr7s4bbz"
+        "req_01m79snxhfe0xsng2zsr0d46er"
       ],
       "measured_on": "linux"
     },
@@ -492,18 +546,24 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "qwen3-235b-a22b-instruct-2507-fp8",
       "model_revision": "qwen3-235b-a22b-instruct-2507-fp8-e156cb4e",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:47Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:35:52Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768wszfe5s95h43s7xqk4jk",
-        "req_01m768wt2begb9bp931xhz596w"
+        "req_01m79sp0qtej9szdhv0vd3tj10",
+        "req_01m79sp0yxek5bw7cc3ahr2bm2",
+        "req_01m79sp296e7wrkr5jrjbz0vsk",
+        "req_01m79sp3j4eg192ttgs3whz3jz",
+        "req_01m79sp5zyerg8m35sjfz9w2ts",
+        "req_01m79spae8et1tkjp7ba1rhzeg",
+        "req_01m79spm72esy9vb93j84p66rt",
+        "req_01m79sq868ersbyjnm98fwb700"
       ],
       "measured_on": "linux"
     },
@@ -516,11 +576,16 @@
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:45Z",
-      "run": 43263416399,
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:36:01Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78azm4be42b5q7m0s6feqr1"
+        "req_01m79sxayee3pr988wc4898fma",
+        "req_01m79sxbe0ehsaqxja8pffc2wh",
+        "req_01m79sxc0reyws11stemcwj04x",
+        "req_01m79sxczse368snmvfvp9kymx",
+        "req_01m79sxevye4d8b3c7gtf9bfd4",
+        "req_01m79sxjg5et3s74cx8yw24p6d"
       ],
       "measured_on": "linux"
     },
@@ -531,33 +596,39 @@
       "model": "qwen3-235b-a22b-instruct-2507-fp8",
       "model_revision": "qwen3-235b-a22b-instruct-2507-fp8-e156cb4e",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:50Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:36:03Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768wwnqeveajbn9z6ke4v8t",
-        "req_01m768wwr5ed29d25xwm90d66z",
-        "req_01m768wwrgeb6bn1gbjmejjdhg"
+        "req_01m79sxmg8eqd9vnhnn8qkf4w1",
+        "req_01m79sxmk8et7td9sag3xnq4aa",
+        "req_01m79sxmkqebvam73kfkasxpj0"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:51Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:40:03Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768wxqjepd9vjeh4efv46yq",
-        "req_01m768wxxmes08yzxc2pfgwtth"
+        "req_01m79sxnpkevftzr61cpb6qa6w",
+        "req_01m79sxnwte1etfn2fe4kp04by",
+        "req_01m79sxq74ebhvx2fgrd4a2y74",
+        "req_01m79sxrgseqevqkybqnxrb37d",
+        "req_01m79sxtveenqrgj3e99rm7ste",
+        "req_01m79sxze3ehsv5f72tgxsfaqr",
+        "req_01m79sy7t7evs8etagcrmpmqmb",
+        "req_01m79sytb8ez0svpdpwq5tn364"
       ],
       "measured_on": "linux"
     },
@@ -570,11 +641,16 @@
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:50Z",
-      "run": 43263416399,
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:40:12Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78azs3sencbcbcng2v0bp6p"
+        "req_01m79t5002eknvp0rz6pdbsgpn",
+        "req_01m79t50f1ex29k88e98d6r5pn",
+        "req_01m79t514zedztn7bt5tf5jm7c",
+        "req_01m79t5265e038y7tww8ywyeen",
+        "req_01m79t5422extvngj6he9psscv",
+        "req_01m79t57dae2889qmbths0bwaf"
       ],
       "measured_on": "linux"
     },
@@ -585,33 +661,39 @@
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:54Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:40:14Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768x0kte1erhtyvknk3x391",
-        "req_01m768x0p8ek087yrt8eevgxgv",
-        "req_01m768x0qsewe93dy2ejnhewvh"
+        "req_01m79t59dce688xdwydbap17ta",
+        "req_01m79t59jge7v9k0awm1ecnv2w",
+        "req_01m79t59kee1frat8xfe8wrs3j"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "qwen3-32b",
       "model_revision": "qwen3-32b-9216db57",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:55Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:44:14Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768x1jpetyvd4vaa8p8c7xs",
-        "req_01m768x1nfem38vshnen7ycrhx"
+        "req_01m79t5atfe0ttfk7f66ty15h0",
+        "req_01m79t5azwehfsmab65z6c6htn",
+        "req_01m79t5c8ke4kbdy1c03qazevq",
+        "req_01m79t5dhce7xtjv1xaac6srkp",
+        "req_01m79t5gakedzs7r39vrpqv8q8",
+        "req_01m79t5mx1ekv81qrnq7es02f0",
+        "req_01m79t5xr6eyk94tsxwdcj7vcm",
+        "req_01m79t6hg8eevtsm2vxdj9w0py"
       ],
       "measured_on": "linux"
     },
@@ -624,11 +706,16 @@
       "pool": "community",
       "result": "fail",
       "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T16:55:54Z",
-      "run": 43263416399,
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:44:23Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78azx59ev0tq14jcge838h1"
+        "req_01m79tcn2ce10vdqgqr49c4fwr",
+        "req_01m79tcngxez0b8rry55afac4r",
+        "req_01m79tcp5wep5t0m132wpzanbc",
+        "req_01m79tcq7xebs9hfvc3prn6949",
+        "req_01m79tcrz2e37v962pymefm4jj",
+        "req_01m79tcwd0ee8ag41mav2fb78h"
       ],
       "measured_on": "linux"
     },
@@ -639,33 +726,39 @@
       "model": "qwen3-32b",
       "model_revision": "qwen3-32b-9216db57",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:40:57Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:44:25Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768x4acesca00j4jhp39w3d",
-        "req_01m768x4ctemasshs5ah2rs0ge",
-        "req_01m768x4d7eat8m5ekk067kd9e"
+        "req_01m79tcycte1c84vjtk2wwaqy6",
+        "req_01m79tcyfrem4sab3bpvj8mgkp",
+        "req_01m79tcyj8e8svbs41a1yaj6h4"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "qwen3.6-40b-uncensor",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T22:49:52Z",
-      "run": 43114693426,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:48:25Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m76cv9y1ekpvn6jf41d1m8jg",
-        "req_01m76cva4qe2br1ry4etn1jkrn"
+        "req_01m79tczq9epxt4v13mmkxe7x4",
+        "req_01m79tczw3e9mv80kpnpat5ym6",
+        "req_01m79td17zeqhbr6446g4d481d",
+        "req_01m79td2k2eknbj18930c6cahg",
+        "req_01m79td54fey6r0e4q7td48tqx",
+        "req_01m79td9z2e5xrz82r51dte0pg",
+        "req_01m79tdjehez5ttwe8tzjhj56h",
+        "req_01m79te351eatvkpragc1mq3h3"
       ],
       "measured_on": "linux"
     },
@@ -676,13 +769,18 @@
       "model": "qwen3.6-40b-uncensor",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-12T16:55:59Z",
-      "run": 43263416399,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:48:34Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78b01gqe8p8qbpgec2xq7md"
+        "req_01m79tm9wpe4m9c9wrwn4bv245",
+        "req_01m79tmaa1er9a7m3g9w9eta5j",
+        "req_01m79tmawsefevcdhdbca3qfet",
+        "req_01m79tmbynesgbrk452qr65mhj",
+        "req_01m79tmdnceew8rbrbs3stqb3a",
+        "req_01m79tmhaseqw93hhsdaqzaeft"
       ],
       "measured_on": "linux"
     },
@@ -693,33 +791,39 @@
       "model": "qwen3.6-40b-uncensor",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T22:49:54Z",
-      "run": 43114693426,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:48:36Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m76cvc6gexfsbamfayfr4cq4",
-        "req_01m76cvc9qeftr1rkk2rw0bp1m",
-        "req_01m76cvc9xe0cb6bqt822n56vw"
+        "req_01m79tmkbre5y9mn0qfhydn7qb",
+        "req_01m79tmkekep4rc9qxdbpyagsy",
+        "req_01m79tmkfre339k8b45gryxkmr"
       ],
       "measured_on": "linux"
     },
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.322",
+      "agent_version": "2.1.323",
       "model": "qwen3.6-40b-uncensor-bc23dff6",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:41:18Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_value",
+      "tested_at": "2026-11-13T06:52:36Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768xr08ekcrab370fak5nm0",
-        "req_01m768xr3cef6tdnqcxzkhk8w4"
+        "req_01m79tmmm7enqsgr5hjtgzg5wr",
+        "req_01m79tmms9e969k4wsgje9q6ss",
+        "req_01m79tmp2qen1b95p0c56jsmra",
+        "req_01m79tmqcqen8tr094s11apnj3",
+        "req_01m79tmt25edpaqangsqrj4qwf",
+        "req_01m79tmyfcem4v1drr3y40hmg3",
+        "req_01m79tn7hvescaxv71sj5dnreh",
+        "req_01m79tnt1we4qb5hvgf2d2pqpd"
       ],
       "measured_on": "linux"
     },
@@ -730,13 +834,18 @@
       "model": "qwen3.6-40b-uncensor-bc23dff6",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-12T16:56:03Z",
-      "run": 43263416399,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:52:44Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m78b05qyehftkx4n0py85ayd"
+        "req_01m79tvyy7e3e8sb44qrqtpj8a",
+        "req_01m79tvzc9espt3xgjmxynbyna",
+        "req_01m79tvzzeexct6sg912p170vb",
+        "req_01m79tw11nev2spznw4q21102s",
+        "req_01m79tw2sfeqy9s32hkjw5amxf",
+        "req_01m79tw63keddb36hhde889h4e"
       ],
       "measured_on": "linux"
     },
@@ -747,15 +856,15 @@
       "model": "qwen3.6-40b-uncensor-bc23dff6",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-11T21:41:20Z",
-      "run": 43104447916,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_not_on_plan",
+      "tested_at": "2026-11-13T06:52:47Z",
+      "run": 43376219382,
       "request_ids": [
-        "req_01m768xtsdes7r7wgdtp28wec3",
-        "req_01m768xtvtetyvfghyw0y8cccz",
-        "req_01m768xtwbe1brwgva46q3920x"
+        "req_01m79tw85ye2c81xg1aex6jxfq",
+        "req_01m79tw88gexrrkh8fma4dpj2e",
+        "req_01m79tw89neh29c1z3d8hd6k5p"
       ],
       "measured_on": "linux"
     }
