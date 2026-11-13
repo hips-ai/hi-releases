@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 4,
-  "issued_at": "2026-11-12T16:56:05Z",
+  "sequence": 5,
+  "issued_at": "2026-11-13T01:14:20Z",
   "results": [
     {
       "agent": "claude",
@@ -172,14 +172,14 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_value",
-      "tested_at": "2026-11-12T16:54:30Z",
-      "run": 43263416399,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T01:13:30Z",
+      "run": 43343035920,
       "request_ids": [
-        "req_01m78axa5dex08264w15zd568a",
-        "req_01m78axa9tez1t0ffcevj9ex3t"
+        "req_01m797f0ene6fs82184pgn4ahq",
+        "req_01m797f0keeszvanha7v6j24z7"
       ],
       "measured_on": "linux"
     },
@@ -207,15 +207,15 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "relay_upstream",
-      "tested_at": "2026-11-12T16:55:07Z",
-      "run": 43263416399,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T01:13:33Z",
+      "run": 43343035920,
       "request_ids": [
-        "req_01m78axe6eev3bdtfg6jb2xfsh",
-        "req_01m78axgaeex2aez8c5p6b55aa",
-        "req_01m78axzyje43ae7xqdy7a2eck"
+        "req_01m797f3p4emxvp595yb42tc06",
+        "req_01m797f3sxe1haw3vqvrjayrfp",
+        "req_01m797f3t7e1wavjkh07e87pew"
       ],
       "measured_on": "linux"
     },
@@ -388,15 +388,14 @@
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_value",
-      "tested_at": "2026-11-12T07:29:05Z",
-      "run": 43174951147,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T01:13:50Z",
+      "run": 43343035920,
       "request_ids": [
-        "req_01m77aedppeg8sc4z2gw3g672k",
-        "req_01m77aedvcerxa00cfree2qavg",
-        "req_01m77ahc55ems9vzg2v2cvc7p8"
+        "req_01m797fm73eeqrzqv3efdx3vxp",
+        "req_01m797fmd3e8xa730gwjb4wkb1"
       ],
       "measured_on": "linux"
     },
@@ -424,16 +423,15 @@
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-12T07:29:23Z",
-      "run": 43174951147,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-13T01:13:55Z",
+      "run": 43343035920,
       "request_ids": [
-        "req_01m77aj2xmej3bxen1z4n287p5",
-        "req_01m77aj2zne8br9h4qtg3reecf",
-        "req_01m77aj305er993fenxytyedc2",
-        "req_01m77aj9r6ejabarfbjk5052ep"
+        "req_01m797fse9ejm9x22evexsttbj",
+        "req_01m797fsjbeaeahgjvtwkkbn5w",
+        "req_01m797fsjxe1z8ecf7cdq869z5"
       ],
       "measured_on": "linux"
     },
