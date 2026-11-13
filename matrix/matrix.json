@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 5,
-  "issued_at": "2026-11-13T01:44:07Z",
+  "sequence": 6,
+  "issued_at": "2026-11-13T12:36:10Z",
   "agents": {
     "aider": [
       {
@@ -52,24 +52,24 @@
     "codex": [
       {
         "first": "0.162.1",
-        "last": "0.167.2",
-        "measured": "capture tests of each release in run 43174951147, 2026-11-12, on macOS arm64",
+        "last": "0.169.0",
+        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "0.167.0",
-        "last": "0.167.2",
-        "measured": "capture tests of each release in run 43174951147, 2026-11-12, on Linux x64",
+        "last": "0.169.0",
+        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "0.167.1",
-        "last": "0.167.2",
-        "measured": "capture tests of each release in run 43174951147, 2026-11-12, on Windows x64",
+        "last": "0.169.0",
+        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -179,16 +179,24 @@
     "opencode": [
       {
         "first": "2.2.5",
-        "last": "2.2.7",
-        "measured": "capture tests of each release in run 42974410438, 2026-11-11, on macOS arm64",
+        "last": "2.3.0",
+        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
+        "first": "2.2.6",
+        "last": "2.3.0",
+        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
         "first": "2.2.7",
-        "last": "2.2.7",
-        "measured": "capture tests of each release in run 42974410438, 2026-11-11, on Windows x64",
+        "last": "2.3.0",
+        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on Windows x64",
         "platforms": [
           "windows"
         ]
