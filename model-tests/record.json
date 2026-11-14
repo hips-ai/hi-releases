@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 11,
-  "issued_at": "2026-11-14T11:52:37Z",
+  "sequence": 12,
+  "issued_at": "2026-11-14T18:30:14Z",
   "results": [
     {
       "agent": "claude",
@@ -45,17 +45,16 @@
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-14T11:37:22Z",
-      "run": 43590817145,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-14T18:17:25Z",
+      "run": 43625640817,
       "request_ids": [
-        "req_01m7cxhkjde29vqgbhk6mdcvxs",
-        "req_01m7cxhkmke7m92mbr0brwkptm",
-        "req_01m7cxhkr4esn84mp5ckshbakx",
-        "req_01m7cxhkvhe2drg4yvb7gwaz95",
-        "req_01m7cxhkyweb0tshs7tzmqe3gk"
+        "req_01m7dme4cyea1s3aj0vda9w9z3",
+        "req_01m7dme4fvepha67bjxk52jbym",
+        "req_01m7dme4n8e62r1epxv7ec3b5f",
+        "req_01m7dme4sge00b5p9wkrr376bt"
       ],
       "measured_on": "linux"
     },
@@ -154,14 +153,14 @@
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-14T11:41:42Z",
-      "run": 43590817145,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-14T18:18:16Z",
+      "run": 43625640817,
       "request_ids": [
-        "req_01m7cxj8nfe8psegbf25tsaa5t",
-        "req_01m7cxj8raevgbzxh5w5yr83yn"
+        "req_01m7dmerchejh8yp7pvdcfac4e",
+        "req_01m7dmerhaecmt07wkwmwp75n1"
       ],
       "measured_on": "linux"
     },
@@ -764,15 +763,17 @@
       "model": "qwen3.6-40b-uncensor-bc23dff6",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-14T01:25:25Z",
-      "run": 43537292060,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-14T18:30:14Z",
+      "run": 43625640817,
       "request_ids": [
-        "req_01m7bthj6be77rkfrfa753hmsn",
-        "req_01m7bthj94esn9x14xapr279g9",
-        "req_01m7bthj9kecxs97ntyacqbbxz"
+        "req_01m7dn5k93enbspsh9hyy1raww",
+        "req_01m7dn5kc2ecd9nv42sv7b8z14",
+        "req_01m7dn5khvetxanjqgj3gnkgwp",
+        "req_01m7dn5kncem5t9kbtk16mwcjs",
+        "req_01m7dn5kswey8thyng0p04czh9"
       ],
       "measured_on": "linux"
     }
