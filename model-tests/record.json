@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 12,
-  "issued_at": "2026-11-14T18:30:14Z",
+  "sequence": 13,
+  "issued_at": "2026-11-15T00:12:09Z",
   "results": [
     {
       "agent": "claude",
@@ -153,14 +153,15 @@
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-14T18:18:16Z",
-      "run": 43625640817,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-15T00:00:40Z",
+      "run": 43655841929,
       "request_ids": [
-        "req_01m7dmerchejh8yp7pvdcfac4e",
-        "req_01m7dmerhaecmt07wkwmwp75n1"
+        "req_01m7e8169ne3wsnfaxpkpbpwka",
+        "req_01m7e816evec5vg6859tt8em7k",
+        "req_01m7e816d6e3rvn8qaj2kyybhp"
       ],
       "measured_on": "linux"
     },
@@ -763,17 +764,14 @@
       "model": "qwen3.6-40b-uncensor-bc23dff6",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-14T18:30:14Z",
-      "run": 43625640817,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-15T00:12:09Z",
+      "run": 43655841929,
       "request_ids": [
-        "req_01m7dn5k93enbspsh9hyy1raww",
-        "req_01m7dn5kc2ecd9nv42sv7b8z14",
-        "req_01m7dn5khvetxanjqgj3gnkgwp",
-        "req_01m7dn5kncem5t9kbtk16mwcjs",
-        "req_01m7dn5kswey8thyng0p04czh9"
+        "req_01m7e8qnjqebj9hgs7q2nneyym",
+        "req_01m7e8qnpbekgbhww3s62t2a1m"
       ],
       "measured_on": "linux"
     }
