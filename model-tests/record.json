@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 15,
-  "issued_at": "2026-11-16T05:12:30Z",
+  "sequence": 16,
+  "issued_at": "2026-11-16T07:06:25Z",
   "results": [
     {
       "agent": "claude",
@@ -205,14 +205,15 @@
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-16T04:35:05Z",
-      "run": 43804343184,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-16T06:53:52Z",
+      "run": 43818953898,
       "request_ids": [
-        "req_01m7ha4x5je1w9pmwcpvvfvnrp",
-        "req_01m7ha4x9re9rvhec9tay9ywxf"
+        "req_01m7hj3swwenjspgtapvejt4rt",
+        "req_01m7hj3swye1dr9tted3xtztwn",
+        "req_01m7hj3ycxeky9t0pkhn7p6ppw"
       ],
       "measured_on": "linux"
     },
@@ -278,13 +279,20 @@
       "model": "mistral-nemo-instruct-2407-12b",
       "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-14T05:13:37Z",
-      "run": 43560189660,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "context_size_not_measured",
+      "tested_at": "2026-11-16T06:59:35Z",
+      "run": 43818953898,
       "request_ids": [
-        "req_01m7c7kdp1ernsb2tqhpk7k6ec"
+        "req_01m7hj7jj3e668sn406q0m7waw",
+        "req_01m7hj8ghneagrhdexmg4s7nhn",
+        "req_01m7hj9ejherjtadn2d6emhemv",
+        "req_01m7hjacqpec3rqtxwd74r8a8r",
+        "req_01m7hjbaqmemvad6t03h61w03c",
+        "req_01m7hjc8pnep6r2ay89gmj3tdb",
+        "req_01m7hjd6r1ejmrcde7cxxqvpv5",
+        "req_01m7hjea1xerhr15j8yv97bfg5"
       ],
       "measured_on": "linux"
     },
@@ -295,14 +303,12 @@
       "model": "mistral-nemo-instruct-2407-12b",
       "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "fail",
+      "reason": "timeout",
       "gateway_code": null,
-      "tested_at": "2026-11-14T01:07:39Z",
-      "run": 43537292060,
-      "request_ids": [
-        "req_01m7bsh1j4ecrrw8g866he078g"
-      ],
+      "tested_at": "2026-11-16T07:03:50Z",
+      "run": 43818953898,
+      "request_ids": [],
       "measured_on": "linux"
     },
     {
@@ -312,16 +318,15 @@
       "model": "mistral-nemo-instruct-2407-12b",
       "model_revision": "mistral-nemo-instruct-2407-12b-04d8a905",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-16T04:38:39Z",
-      "run": 43804343184,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-16T07:04:54Z",
+      "run": 43818953898,
       "request_ids": [
-        "req_01m7hacj7ve649e9v2m2w2b7df",
-        "req_01m7hacjbde28v7b1v1w487ayd",
-        "req_01m7hacjbver0az9mv6en7tprq",
-        "req_01m7hacqkwebc87pv7ykk4871s"
+        "req_01m7hjppkwe489cqp159cz3ab2",
+        "req_01m7hjppqtepj8xqndbmtdfwbw",
+        "req_01m7hjq7h8exh9rqhc6s328z77"
       ],
       "measured_on": "linux"
     },
@@ -474,15 +479,15 @@
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-13T20:23:22Z",
-      "run": 43496379617,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-16T07:05:43Z",
+      "run": 43818953898,
       "request_ids": [
-        "req_01m7b9777dee4bbag6v54fsjd1",
-        "req_01m7b977b5eh7tjb0prekz3y87",
-        "req_01m7b98145e9tbnheybg89bxcd"
+        "req_01m7hjt323e6d84361s5rzjkp5",
+        "req_01m7hjt36mee8b1hv2mva59vrh",
+        "req_01m7hjt376ew386ydcy2fnhxjy"
       ],
       "measured_on": "linux"
     },
@@ -688,15 +693,17 @@
       "model": "qwen3.6-40b-uncensor",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-14T01:25:22Z",
-      "run": 43537292060,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-16T07:06:08Z",
+      "run": 43818953898,
       "request_ids": [
-        "req_01m7bthew1ey68h20x2w83hjh8",
-        "req_01m7btheyzeg8tppy58e8wwjsz",
-        "req_01m7bthezbeq2s736dr44dvhda"
+        "req_01m7hjtcsked5b9znmxj7y0fca",
+        "req_01m7hjtcxhe1t8vet3jbcn9ptc",
+        "req_01m7hjtd1yezvvvshva10vcxyd",
+        "req_01m7hjtd6cexesyhxng47p0bkp",
+        "req_01m7hjtdaqemtvpkkqwvw6p2m9"
       ],
       "measured_on": "linux"
     },
@@ -742,14 +749,17 @@
       "model": "qwen3.6-40b-uncensor-bc23dff6",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-15T00:12:09Z",
-      "run": 43655841929,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unsupported_parameter",
+      "tested_at": "2026-11-16T07:06:25Z",
+      "run": 43818953898,
       "request_ids": [
-        "req_01m7e8qnjqebj9hgs7q2nneyym",
-        "req_01m7e8qnpbekgbhww3s62t2a1m"
+        "req_01m7hjtxkzeerr7mterdw7xham",
+        "req_01m7hjtxrae2dradwswnwg5131",
+        "req_01m7hjtxyzeadb5d86m0twtp4s",
+        "req_01m7hjty3ee34s9exmcqd1f566",
+        "req_01m7hjty8veff9y44hbc7fbcp8"
       ],
       "measured_on": "linux"
     }
