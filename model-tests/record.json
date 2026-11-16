@@ -1,23 +1,22 @@
 {
   "format": 1,
-  "sequence": 14,
-  "issued_at": "2026-11-16T04:46:19Z",
+  "sequence": 15,
+  "issued_at": "2026-11-16T05:12:30Z",
   "results": [
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.323",
+      "agent_version": "2.1.325",
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "community",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-14T01:01:05Z",
-      "run": 43537292060,
+      "tested_at": "2026-11-16T05:03:10Z",
+      "run": 43807645743,
       "request_ids": [
-        "req_01m7bs5092ecn8dw85bsfsrnye",
-        "req_01m7bs50d7e8nbmpy1p4v6xje5"
+        "req_01m7hbsqf6ex3s5jphcq21t23f"
       ],
       "measured_on": "linux"
     },
@@ -45,17 +44,13 @@
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-16T04:30:06Z",
-      "run": 43804343184,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-16T05:03:27Z",
+      "run": 43807645743,
       "request_ids": [
-        "req_01m7h9wnx2eh8bdcn1sazghc5d",
-        "req_01m7h9wp0te48spgw5jb9wdfxv",
-        "req_01m7h9wp68e9tt1w5n7x43sawb",
-        "req_01m7h9wpbwe9nat60eqqhbaq5g",
-        "req_01m7h9wphfee293np70321132y"
+        "req_01m7hbsryse9ysz1fcr762ahjk"
       ],
       "measured_on": "linux"
     },
@@ -118,18 +113,17 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.323",
+      "agent_version": "2.1.325",
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "community",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-13T06:10:45Z",
-      "run": 43376219382,
+      "tested_at": "2026-11-16T05:03:51Z",
+      "run": 43807645743,
       "request_ids": [
-        "req_01m79rfa8jemkb3tnkeqmkdhdk",
-        "req_01m79rfaf2ehfadmgexr4kvrsc"
+        "req_01m7hbtzcaeamsxhvehg070fgv"
       ],
       "measured_on": "linux"
     },
@@ -157,15 +151,14 @@
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "community",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unsupported_parameter",
-      "tested_at": "2026-11-15T00:00:40Z",
-      "run": 43655841929,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-16T05:04:40Z",
+      "run": 43807645743,
       "request_ids": [
-        "req_01m7e8169ne3wsnfaxpkpbpwka",
-        "req_01m7e816evec5vg6859tt8em7k",
-        "req_01m7e816d6e3rvn8qaj2kyybhp"
+        "req_01m7hbv0w3er3tfjsh87rdsh5j",
+        "req_01m7hbv31febnrmknaay05jag2"
       ],
       "measured_on": "linux"
     },
@@ -570,13 +563,14 @@
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "pass",
+      "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-14T01:17:15Z",
-      "run": 43537292060,
+      "tested_at": "2026-11-16T05:10:53Z",
+      "run": 43807645743,
       "request_ids": [
-        "req_01m7bt2m1rem69khjyhv1w7qky"
+        "req_01m7hc6xzrebebtjnzma87mmr7",
+        "req_01m7hc7mkje0jskzcermyqvgxj"
       ],
       "measured_on": "linux"
     },
