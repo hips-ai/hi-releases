@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 8,
-  "issued_at": "2026-11-16T07:00:21Z",
+  "sequence": 9,
+  "issued_at": "2026-11-17T03:24:27Z",
   "agents": {
     "aider": [
       {
@@ -16,24 +16,24 @@
     "claude": [
       {
         "first": "2.1.314",
-        "last": "2.1.325",
-        "measured": "capture tests of each release in run 43537292060, 2026-11-14, on macOS arm64",
+        "last": "2.1.326",
+        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "2.1.319",
-        "last": "2.1.325",
-        "measured": "capture tests of each release in run 43537292060, 2026-11-14, on Linux x64",
+        "last": "2.1.326",
+        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "2.1.322",
-        "last": "2.1.325",
-        "measured": "capture tests of each release in run 43537292060, 2026-11-14, on Windows x64",
+        "last": "2.1.326",
+        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -179,6 +179,30 @@
         "measured": "capture tests of each release in run 42980475679, 2026-11-11, on Linux x64",
         "platforms": [
           "linux"
+        ]
+      },
+      {
+        "first": "0.23.2",
+        "last": "0.23.2",
+        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "first": "0.23.2",
+        "last": "0.23.2",
+        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on macOS arm64",
+        "platforms": [
+          "macos"
+        ]
+      },
+      {
+        "first": "0.23.2",
+        "last": "0.23.2",
+        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on Windows x64",
+        "platforms": [
+          "windows"
         ]
       }
     ],
