@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 10,
-  "issued_at": "2026-11-17T13:53:50Z",
+  "sequence": 11,
+  "issued_at": "2026-11-17T23:49:54Z",
   "agents": {
     "aider": [
       {
@@ -16,24 +16,24 @@
     "claude": [
       {
         "first": "2.1.314",
-        "last": "2.1.326",
-        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on macOS arm64",
+        "last": "2.1.327",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "2.1.319",
-        "last": "2.1.326",
-        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on Linux x64",
+        "last": "2.1.327",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "2.1.322",
-        "last": "2.1.326",
-        "measured": "capture tests of each release in run 44006823616, 2026-11-17, on Windows x64",
+        "last": "2.1.327",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -52,24 +52,24 @@
     "codex": [
       {
         "first": "0.162.1",
-        "last": "0.169.0",
-        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on macOS arm64",
+        "last": "0.169.1",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "0.167.0",
-        "last": "0.169.0",
-        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on Linux x64",
+        "last": "0.169.1",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "0.167.1",
-        "last": "0.169.0",
-        "measured": "capture tests of each release in run 43424386092, 2026-11-13, on Windows x64",
+        "last": "0.169.1",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -141,6 +141,22 @@
         "first": "1.59.2",
         "last": "1.59.2",
         "measured": "capture tests of each release in run 43818953898, 2026-11-16, on macOS arm64",
+        "platforms": [
+          "macos"
+        ]
+      },
+      {
+        "first": "1.60.0",
+        "last": "1.60.0",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "first": "1.60.0",
+        "last": "1.60.0",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on macOS arm64",
         "platforms": [
           "macos"
         ]
@@ -308,6 +324,22 @@
         "platforms": [
           "macos"
         ]
+      },
+      {
+        "first": "0.10.4",
+        "last": "0.10.4",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "first": "0.10.4",
+        "last": "0.10.4",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on macOS arm64",
+        "platforms": [
+          "macos"
+        ]
       }
     ],
     "qwen": [
@@ -349,6 +381,13 @@
       {
         "release": "0.10.3",
         "measured": "capture tests of each release in run 43343035920, 2026-11-13, on Windows x64",
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "release": "0.10.4",
+        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Windows x64",
         "platforms": [
           "windows"
         ]
