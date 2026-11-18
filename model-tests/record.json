@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 19,
-  "issued_at": "2026-11-18T23:10:18Z",
+  "sequence": 20,
+  "issued_at": "2026-11-18T23:46:55Z",
   "results": [
     {
       "agent": "claude",
@@ -45,15 +45,15 @@
       "model": "deepseek-v4-flash-0731",
       "model_revision": "deepseek-v4-flash-0731-1",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-18T23:01:31Z",
-      "run": 44416877866,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "unknown_parameter",
+      "tested_at": "2026-11-18T23:35:06Z",
+      "run": 44421826724,
       "request_ids": [
-        "req_01m7re9n5eeww8gybr054qm930",
-        "req_01m7re9n9yega8vkkv1kep23k8",
-        "req_01m7re9nageah8mg26fqwq6mdz"
+        "req_01m7rg7216e4vs6x3kdqr3fqg0",
+        "req_01m7rg73m4e82vpwh00tfmjx29",
+        "req_01m7rg71x8e20byqkyw9wsmyze"
       ],
       "measured_on": "linux"
     },
@@ -349,15 +349,11 @@
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "certified",
       "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unknown_parameter",
-      "tested_at": "2026-11-18T23:08:14Z",
-      "run": 44416877866,
-      "request_ids": [
-        "req_01m7renw81e9bvjh0hbttsbrzt",
-        "req_01m7renwbdekf8qk73c5yd7pb8",
-        "req_01m7renyx7e80ab2t8qtrb2rxw"
-      ],
+      "reason": "timeout",
+      "gateway_code": null,
+      "tested_at": "2026-11-18T23:40:15Z",
+      "run": 44421826724,
+      "request_ids": [],
       "measured_on": "linux"
     },
     {
@@ -568,14 +564,12 @@
       "model_revision": "granite-4.2-8b-a7042144",
       "pool": "certified",
       "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "unknown_parameter",
-      "tested_at": "2026-11-18T17:24:30Z",
-      "run": 44357581542,
+      "reason": "timeout",
+      "gateway_code": null,
+      "tested_at": "2026-11-18T23:45:02Z",
+      "run": 44421826724,
       "request_ids": [
-        "req_01m7qv09n0e0193j8jbcpsy1gk",
-        "req_01m7qv0basesatwdch5dm9hqj8",
-        "req_01m7qv09h9eratndfdj4fp388c"
+        "req_01m7rghkwne5zrj7wnb3b6hjkz"
       ],
       "measured_on": "linux"
     },
