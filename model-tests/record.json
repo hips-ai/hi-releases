@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 23,
-  "issued_at": "2026-11-19T22:00:33Z",
+  "sequence": 24,
+  "issued_at": "2026-11-19T23:09:19Z",
   "results": [
     {
       "agent": "claude",
@@ -335,18 +335,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.327",
+      "agent_version": "2.1.328",
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-18T23:02:30Z",
-      "run": 44416877866,
+      "tested_at": "2026-11-19T23:07:25Z",
+      "run": 44634686253,
       "request_ids": [
-        "req_01m7re9pgaear9pk17ntezrxjx",
-        "req_01m7rea9c0egm9q6fzhe03pb6q"
+        "req_01m7v10b2genvrt6x3evvknb5x",
+        "req_01m7v111b7enca7n4hb7wgbwfp"
       ],
       "measured_on": "linux"
     },
@@ -1261,17 +1261,19 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.327",
+      "agent_version": "2.1.328",
       "model": "north-mini-code-1.0-30b",
       "model_revision": "north-mini-code-1.0-30b-d11e61a8",
       "pool": "certified",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-18T23:09:12Z",
-      "run": 44416877866,
+      "tested_at": "2026-11-19T23:08:49Z",
+      "run": 44634686253,
       "request_ids": [
-        "req_01m7reqr18e8j9mey1xsqb41dk"
+        "req_01m7v11m3qefs8n2srp7few3xp",
+        "req_01m7v12qbyenaaz00xgv5sm1dz",
+        "req_01m7v13qvneawrbr8633p6eztr"
       ],
       "measured_on": "linux"
     },
