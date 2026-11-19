@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 14,
-  "issued_at": "2026-11-19T13:43:42Z",
+  "sequence": 15,
+  "issued_at": "2026-11-19T23:24:04Z",
   "agents": {
     "aider": [
       {
@@ -16,24 +16,24 @@
     "claude": [
       {
         "first": "2.1.314",
-        "last": "2.1.328",
-        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on macOS arm64",
+        "last": "2.1.329",
+        "measured": "capture tests of each release in run 44634686253, 2026-11-19, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "2.1.319",
-        "last": "2.1.328",
-        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on Linux x64",
+        "last": "2.1.329",
+        "measured": "capture tests of each release in run 44634686253, 2026-11-19, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "2.1.322",
-        "last": "2.1.328",
-        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on Windows x64",
+        "last": "2.1.329",
+        "measured": "capture tests of each release in run 44634686253, 2026-11-19, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -86,18 +86,18 @@
       },
       {
         "first": "0.100.0",
-        "last": "0.101.0",
-        "measured": "capture tests of each release in run 43263416399, 2026-11-12, on Linux x64",
+        "last": "0.102.0",
+        "measured": "capture tests of each release in run 44634686253, 2026-11-19, on macOS arm64",
         "platforms": [
-          "linux"
+          "macos"
         ]
       },
       {
         "first": "0.100.0",
-        "last": "0.101.0",
-        "measured": "capture tests of each release in run 43263416399, 2026-11-12, on macOS arm64",
+        "last": "0.102.0",
+        "measured": "capture tests of each release in run 44634686253, 2026-11-19, on Linux x64",
         "platforms": [
-          "macos"
+          "linux"
         ]
       }
     ],
