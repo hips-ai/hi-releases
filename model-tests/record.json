@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 22,
-  "issued_at": "2026-11-19T21:48:30Z",
+  "sequence": 23,
+  "issued_at": "2026-11-19T22:00:33Z",
   "results": [
     {
       "agent": "claude",
@@ -1552,16 +1552,14 @@
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "model_loading",
-      "tested_at": "2026-11-19T13:32:31Z",
-      "run": 44533659950,
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-19T22:00:27Z",
+      "run": 44624058677,
       "request_ids": [
-        "req_01m7t0261aebt9mrq2dmw31e3z",
-        "req_01m7t035bhexgs4vjkvrv4qaea",
-        "req_01m7t03f3tefws0hyyh78w5q2c",
-        "req_01m7t04emveyka3mfmzcmdz9a1"
+        "req_01m7tx5v5tev9aacqkp6dfpn42",
+        "req_01m7tx61kgev2ak7x5w8xn921q"
       ],
       "measured_on": "linux"
     },
