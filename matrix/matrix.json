@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 12,
-  "issued_at": "2026-11-18T07:57:27Z",
+  "sequence": 13,
+  "issued_at": "2026-11-19T02:10:59Z",
   "agents": {
     "aider": [
       {
@@ -16,24 +16,24 @@
     "claude": [
       {
         "first": "2.1.314",
-        "last": "2.1.327",
-        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on macOS arm64",
+        "last": "2.1.328",
+        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "2.1.319",
-        "last": "2.1.327",
-        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Linux x64",
+        "last": "2.1.328",
+        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "2.1.322",
-        "last": "2.1.327",
-        "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Windows x64",
+        "last": "2.1.328",
+        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -380,6 +380,22 @@
         "platforms": [
           "macos"
         ]
+      },
+      {
+        "first": "0.10.5",
+        "last": "0.10.5",
+        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "first": "0.10.5",
+        "last": "0.10.5",
+        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on macOS arm64",
+        "platforms": [
+          "macos"
+        ]
       }
     ],
     "qwen": [
@@ -428,6 +444,13 @@
       {
         "release": "0.10.4",
         "measured": "capture tests of each release in run 44200414734, 2026-11-17, on Windows x64",
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "release": "0.10.5",
+        "measured": "capture tests of each release in run 44440428037, 2026-11-19, on Windows x64",
         "platforms": [
           "windows"
         ]
