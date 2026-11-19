@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 13,
-  "issued_at": "2026-11-19T02:10:59Z",
+  "sequence": 14,
+  "issued_at": "2026-11-19T13:43:42Z",
   "agents": {
     "aider": [
       {
@@ -107,6 +107,33 @@
         "last": "0.2.2",
         "pre": "rc.1",
         "measured": "capture tests of each release in run 42974410438, 2026-11-11, on Windows x64",
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "first": "0.2.2",
+        "last": "0.2.2",
+        "pre": "rc.5",
+        "measured": "capture tests of each release in run 44533659950, 2026-11-19, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "first": "0.2.2",
+        "last": "0.2.2",
+        "pre": "rc.5",
+        "measured": "capture tests of each release in run 44533659950, 2026-11-19, on macOS arm64",
+        "platforms": [
+          "macos"
+        ]
+      },
+      {
+        "first": "0.2.2",
+        "last": "0.2.2",
+        "pre": "rc.5",
+        "measured": "capture tests of each release in run 44533659950, 2026-11-19, on Windows x64",
         "platforms": [
           "windows"
         ]
