@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 15,
-  "issued_at": "2026-11-19T23:24:04Z",
+  "sequence": 16,
+  "issued_at": "2026-11-20T07:52:56Z",
   "agents": {
     "aider": [
       {
@@ -52,24 +52,24 @@
     "codex": [
       {
         "first": "0.162.1",
-        "last": "0.170.0",
-        "measured": "capture tests of each release in run 44260786551, 2026-11-18, on macOS arm64",
+        "last": "0.171.0",
+        "measured": "capture tests of each release in run 44695241000, 2026-11-20, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "0.167.0",
-        "last": "0.170.0",
-        "measured": "capture tests of each release in run 44260786551, 2026-11-18, on Linux x64",
+        "last": "0.171.0",
+        "measured": "capture tests of each release in run 44695241000, 2026-11-20, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "0.167.1",
-        "last": "0.170.0",
-        "measured": "capture tests of each release in run 44260786551, 2026-11-18, on Windows x64",
+        "last": "0.171.0",
+        "measured": "capture tests of each release in run 44695241000, 2026-11-20, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -78,8 +78,8 @@
     "crush": [
       {
         "first": "0.100.0",
-        "last": "0.100.0",
-        "measured": "capture tests of each release in run 42974410438, 2026-11-11, on Windows x64",
+        "last": "0.102.0",
+        "measured": "capture tests of each release in run 44695241000, 2026-11-20, on Windows x64",
         "platforms": [
           "windows"
         ]
@@ -311,6 +311,14 @@
         "platforms": [
           "windows"
         ]
+      },
+      {
+        "first": "0.23.3",
+        "last": "0.23.3",
+        "measured": "capture tests of each release in run 44695241000, 2026-11-20, on Windows x64",
+        "platforms": [
+          "windows"
+        ]
       }
     ],
     "kilo": [
@@ -453,6 +461,22 @@
     ]
   },
   "red": {
+    "hermes": [
+      {
+        "release": "0.23.3",
+        "measured": "capture tests of each release in run 44695241000, 2026-11-20, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "release": "0.23.3",
+        "measured": "capture tests of each release in run 44695241000, 2026-11-20, on macOS arm64",
+        "platforms": [
+          "macos"
+        ]
+      }
+    ],
     "prime-agent": [
       {
         "release": "0.10.2",
