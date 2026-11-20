@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 26,
-  "issued_at": "2026-11-20T12:22:25Z",
+  "sequence": 27,
+  "issued_at": "2026-11-20T16:20:05Z",
   "results": [
     {
       "agent": "claude",
@@ -1263,19 +1263,17 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.328",
+      "agent_version": "2.1.329",
       "model": "north-mini-code-1.0-30b",
       "model_revision": "north-mini-code-1.0-30b-d11e61a8",
       "pool": "certified",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-19T23:08:49Z",
-      "run": 44634686253,
+      "tested_at": "2026-11-20T16:20:05Z",
+      "run": 44771957153,
       "request_ids": [
-        "req_01m7v11m3qefs8n2srp7few3xp",
-        "req_01m7v12qbyenaaz00xgv5sm1dz",
-        "req_01m7v13qvneawrbr8633p6eztr"
+        "req_01m7ww41v4e74b6v2pe35p7ds8"
       ],
       "measured_on": "linux"
     },
