@@ -1,24 +1,23 @@
 {
   "format": 1,
-  "sequence": 27,
-  "issued_at": "2026-11-20T16:20:05Z",
+  "sequence": 28,
+  "issued_at": "2026-11-21T08:59:54Z",
   "results": [
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "deepseek-v4-flash-0423",
       "model_revision": "deepseek-v4-flash-0423-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:47:04Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:57:18Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh15jae4hv6d1czwe31prd",
-        "req_01m7vh16h6eywayatwsnvtv9ff",
-        "req_01m7vh17jeezt9e4wtvna4t83f"
+        "req_01m7yn5ydeewea0d3pwff64j9v",
+        "req_01m7yn5zswe7ytq2qdd5jyag10"
       ],
       "measured_on": "linux"
     },
@@ -62,18 +61,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "deepseek-v4-flash-0731",
       "model_revision": "deepseek-v4-flash-0731-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:47:09Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:57:35Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh19g2e3kv7wd2fmmhw74g",
-        "req_01m7vh1bmve9qtqx01rgv7fnsp"
+        "req_01m7yn61b5e5bsczn55dk9hq74",
+        "req_01m7yn6454eews3rdjbq5n2n0q"
       ],
       "measured_on": "linux"
     },
@@ -117,18 +116,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "deepseek-v4-pro",
       "model_revision": "deepseek-v4-pro-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:47:15Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:57:39Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh1dz2epsvgfr3k7ygm0ay",
-        "req_01m7vh1h8dew1tn0jb2qyx16ph"
+        "req_01m7yn6j58ec2a9w18hyq60t6n",
+        "req_01m7yn6kwwe0bvhyqsa436n92d"
       ],
       "measured_on": "linux"
     },
@@ -172,19 +171,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "deepseek-v4-pro-0813",
       "model_revision": "deepseek-v4-pro-0813-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:47:44Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:57:44Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh1kxzewqsn2rdahe0qc6r",
-        "req_01m7vh1th0ekdbb7cqkkp6thy8",
-        "req_01m7vh2beeec18h0r3vrggm27j"
+        "req_01m7yn6nnyetq9q9fnnn270v9x",
+        "req_01m7yn6snqe6qbtncwndx4r6kf"
       ],
       "measured_on": "linux"
     },
@@ -228,18 +226,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "deepseek-v4.1-flash",
       "model_revision": "deepseek-v4.1-flash-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:47:48Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:57:47Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh2g0qeb9regnx7wf06ny0",
-        "req_01m7vh2j6reg49m90wg8xtm096"
+        "req_01m7yn6v1ce7pb9r9nz2rvbxfe",
+        "req_01m7yn6weze4xbhsq3q3ytfqf6"
       ],
       "measured_on": "linux"
     },
@@ -283,18 +281,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "deepseek-v4.1-flash-1017",
       "model_revision": "deepseek-v4.1-flash-1017-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:47:52Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:57:52Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh2m54ew8t26saexq9n9jb",
-        "req_01m7vh2nn7ez88dr4xxtqkv7h7"
+        "req_01m7yn6xvtemtbw9hvb41k93fs",
+        "req_01m7yn7123et2vgsx79xvaytpw"
       ],
       "measured_on": "linux"
     },
@@ -444,18 +442,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "gemma-4-e4b-it-8b",
       "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:48:11Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:58:08Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh2qq5eg68gdq507pp2eq1",
-        "req_01m7vh2wtne8ab1y1x0dqefr9v"
+        "req_01m7yn72tke6vt5kwj894gbcgm",
+        "req_01m7yn7g4jeyhr7c8s5g6t2rc1"
       ],
       "measured_on": "linux"
     },
@@ -555,18 +553,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "glm-5.2",
       "model_revision": "glm-5.2-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:48:14Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:58:11Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh3ajbeztsk7458ybsyeqw",
-        "req_01m7vh3bmderpt0nkcchatfhkc"
+        "req_01m7yn7jjqe5v9vejs0smg0znn",
+        "req_01m7yn7kjkepe9daq9r567bt8j"
       ],
       "measured_on": "linux"
     },
@@ -609,18 +607,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "glm-5.3",
       "model_revision": "glm-5.3-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:48:17Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:58:13Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh3d4jece8wscx09xg0pmd",
-        "req_01m7vh3es3ev2at8ame83t1r4h"
+        "req_01m7yn7n5ee3kazcggvf77wxtv",
+        "req_01m7yn7p47e1frtg73fere51a9"
       ],
       "measured_on": "linux"
     },
@@ -664,18 +662,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "glm-5.3-flash",
       "model_revision": "glm-5.3-flash-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:48:20Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:58:19Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh3gvreyqvpgxg6fy2sz0p",
-        "req_01m7vh3hw9enttdbf5g33w96sz"
+        "req_01m7yn7qnse58axc3k07zxrzpm",
+        "req_01m7yn7tk9ec1shd5hv1r8t5ah"
       ],
       "measured_on": "linux"
     },
@@ -719,18 +717,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:48:42Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:58:49Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh3kg4e08v8eqwjxg07xea",
-        "req_01m7vh447ne5frcj7p6r0emwap"
+        "req_01m7yn7xc7eatazdnm4wzsxfmf",
+        "req_01m7yn8qpve5gvk3cg7wbffy0m"
       ],
       "measured_on": "linux"
     },
@@ -822,18 +820,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:48:48Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:58:54Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh48qzes9rf7698eqekqt9",
-        "req_01m7vh4b4been9627dmbjn0gb1"
+        "req_01m7yn8tveetv9e46aa11rtpw2",
+        "req_01m7yn8xe7ej999jdy2yxmdw10"
       ],
       "measured_on": "linux"
     },
@@ -933,18 +931,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "granite-4.2-8b",
       "model_revision": "granite-4.2-8b-a7042144",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:49:16Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:59:07Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh4ed0ewzrnygw7v4a5r7v",
-        "req_01m7vh4mnbeparf0wzmn5cwn0x"
+        "req_01m7yn8zj5ewk9bff381qwxsbt",
+        "req_01m7yn95kqe95sheq2kbqarttz"
       ],
       "measured_on": "linux"
     },
@@ -1041,17 +1039,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "huihui-qwen3.8-27b-abliterated",
       "model_revision": "huihui-qwen3.8-27b-abliterated-739e3c5b",
       "pool": "certified",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:49:24Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:59:24Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh5a92es6a8w3k3yjs7fma"
+        "req_01m7yn9ccfene9jtrpjgvt89bq",
+        "req_01m7yn9vx9ec3s1andz262hp53"
       ],
       "measured_on": "linux"
     },
@@ -1095,18 +1094,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "kimi-k3",
       "model_revision": "kimi-k3-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:49:28Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:59:28Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh5j3he0cbc4nfv860w4ka",
-        "req_01m7vh5kzxe0g8whqgbnb7wxbg"
+        "req_01m7yn9wv3e3ps9rmsavwxgt8t",
+        "req_01m7yn9yp9ekkah39mbnskhc6y"
       ],
       "measured_on": "linux"
     },
@@ -1150,18 +1149,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "kimi-k3.1-pro",
       "model_revision": "kimi-k3.1-pro-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:49:35Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:59:36Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh5p3yeah92fm9b30vrget",
-        "req_01m7vh5tn7e3t8esaqjmtdh48y"
+        "req_01m7yna0mweq38atfn36ng6n2w",
+        "req_01m7yna6ffe07r5ahpby0mmwah"
       ],
       "measured_on": "linux"
     },
@@ -1550,19 +1549,18 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "model_loading",
-      "tested_at": "2026-11-20T03:50:27Z",
-      "run": 44669849638,
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-21T08:59:53Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh5wshegx9efc87jpxsspm",
-        "req_01m7vh67wde6ksfrnfg2jpnkhz",
-        "req_01m7vh7ctsepy9hxzbm8edzmh9"
+        "req_01m7yna8mzewdsc45grxqg9j3v",
+        "req_01m7ynap1pe6ev52agryyrwc69"
       ],
       "measured_on": "linux"
     },
@@ -1750,17 +1748,17 @@
     {
       "agent": "claude",
       "agent_name": "Claude Code",
-      "agent_version": "2.1.329",
+      "agent_version": "2.1.330",
       "model": "qwen3.6-40b-uncensor",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "certified",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-20T03:50:44Z",
-      "run": 44669849638,
+      "tested_at": "2026-11-21T08:59:54Z",
+      "run": 44887191646,
       "request_ids": [
-        "req_01m7vh7ftbexptn9gwy9kpxbd3"
+        "req_01m7ynartxebwvj1ggf0z4j84f"
       ],
       "measured_on": "linux"
     },
