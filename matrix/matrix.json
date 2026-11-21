@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 18,
-  "issued_at": "2026-11-21T01:55:02Z",
+  "sequence": 19,
+  "issued_at": "2026-11-21T13:03:00Z",
   "agents": {
     "aider": [
       {
@@ -42,10 +42,26 @@
     "cline": [
       {
         "first": "3.0.74",
-        "last": "3.0.74",
-        "measured": "capture tests of each release in run 42974410438, 2026-11-11, on Windows x64",
+        "last": "3.0.75",
+        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on Windows x64",
         "platforms": [
           "windows"
+        ]
+      },
+      {
+        "first": "3.0.74",
+        "last": "3.0.75",
+        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "first": "3.0.74",
+        "last": "3.0.75",
+        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on macOS arm64",
+        "platforms": [
+          "macos"
         ]
       }
     ],
@@ -492,24 +508,24 @@
     "qwen": [
       {
         "first": "0.26.9",
-        "last": "0.28.0",
-        "measured": "capture tests of each release in run 44094495995, 2026-11-17, on macOS arm64",
+        "last": "0.28.3",
+        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "0.26.9",
-        "last": "0.28.0",
-        "measured": "capture tests of each release in run 44094495995, 2026-11-17, on Linux x64",
+        "last": "0.28.3",
+        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "0.27.2",
-        "last": "0.28.0",
-        "measured": "capture tests of each release in run 44094495995, 2026-11-17, on Windows x64",
+        "last": "0.28.3",
+        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on Windows x64",
         "platforms": [
           "windows"
         ]
