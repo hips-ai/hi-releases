@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 19,
-  "issued_at": "2026-11-21T13:03:00Z",
+  "sequence": 20,
+  "issued_at": "2026-11-22T16:39:58Z",
   "agents": {
     "aider": [
       {
@@ -508,24 +508,24 @@
     "qwen": [
       {
         "first": "0.26.9",
-        "last": "0.28.3",
-        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on macOS arm64",
+        "last": "0.28.4",
+        "measured": "capture tests of each release in run 45043650067, 2026-11-22, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "0.26.9",
-        "last": "0.28.3",
-        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on Linux x64",
+        "last": "0.28.4",
+        "measured": "capture tests of each release in run 45043650067, 2026-11-22, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "0.27.2",
-        "last": "0.28.3",
-        "measured": "capture tests of each release in run 44905584271, 2026-11-21, on Windows x64",
+        "last": "0.28.4",
+        "measured": "capture tests of each release in run 45043650067, 2026-11-22, on Windows x64",
         "platforms": [
           "windows"
         ]
