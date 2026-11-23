@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 31,
-  "issued_at": "2026-11-23T14:56:30Z",
+  "sequence": 32,
+  "issued_at": "2026-11-23T20:59:01Z",
   "results": [
     {
       "agent": "claude",
@@ -97,19 +97,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "deepseek-v4-flash-0731",
       "model_revision": "deepseek-v4-flash-0731-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:28:45Z",
-      "run": 44533659950,
+      "tested_at": "2026-11-23T20:39:55Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7szxcxme9rt829tx318eans",
-        "req_01m7szxd03ead927n1b6n24s5q",
-        "req_01m7szxe7ye66r0rxhs6z3591h"
+        "req_01m8525vp4etx9dhjgazf8m9kx",
+        "req_01m8525vscepyrwa43er7g2anj",
+        "req_01m8525xdfet3snkqpks8wc7es"
       ],
       "measured_on": "linux"
     },
@@ -152,19 +152,74 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "deepseek-v4-pro",
       "model_revision": "deepseek-v4-pro-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:45:25Z",
-      "run": 44621739907,
+      "tested_at": "2026-11-23T20:39:58Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7tway1tekw9bm3zym5ndm4w",
-        "req_01m7tway4mer6b6zfa1kegbqq0",
-        "req_01m7twazkye698cbf2fxrj32nt"
+        "req_01m852610mec0bfwrxr15gwc2z",
+        "req_01m8526147ezra0z83baxaeqtd",
+        "req_01m852622ee1d8rzz751mdxcns"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.330",
+      "model": "deepseek-v4-pro-0813",
+      "model_revision": "deepseek-v4-pro-0813-1",
+      "pool": "certified",
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-23T20:40:02Z",
+      "run": 45261332166,
+      "request_ids": [
+        "req_01m852643mejbac1ezdpa28dnw",
+        "req_01m85265fxew7s52hdhmr3g7ex"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.171.0",
+      "model": "deepseek-v4-pro-0813",
+      "model_revision": "deepseek-v4-pro-0813-1",
+      "pool": "certified",
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-23T20:40:04Z",
+      "run": 45261332166,
+      "request_ids": [
+        "req_01m8526745e46rjcscf7k1s3b2",
+        "req_01m8526880ezjapgbbagb4b6t3"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.4.0",
+      "model": "deepseek-v4-pro-0813",
+      "model_revision": "deepseek-v4-pro-0813-1",
+      "pool": "certified",
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-23T20:40:07Z",
+      "run": 45261332166,
+      "request_ids": [
+        "req_01m8526a1nefm81c9d0bd5s2vm",
+        "req_01m8526a5aetqbe8c919ewvtvp",
+        "req_01m8526b15ea4tfcges6te0nqb"
       ],
       "measured_on": "linux"
     },
@@ -207,19 +262,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "deepseek-v4.1-flash",
       "model_revision": "deepseek-v4.1-flash-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:45:58Z",
-      "run": 44621739907,
+      "tested_at": "2026-11-23T20:40:11Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7twbzfdeymt3j9vjfkagp1g",
-        "req_01m7twbzjfe0maay5m8fmffs3g",
-        "req_01m7twc0ymeaxsw0cqhaj1bpjk"
+        "req_01m8526d0ae0cs0awseypva0kb",
+        "req_01m8526d3zesw9n88vkyj1fa9g",
+        "req_01m8526e98e50s8jdqckw4vg1j"
       ],
       "measured_on": "linux"
     },
@@ -262,20 +317,16 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "deepseek-v4.1-flash-1017",
       "model_revision": "deepseek-v4.1-flash-1017-1",
       "pool": "certified",
-      "result": "pass",
-      "reason": null,
+      "result": "fail",
+      "reason": "timeout",
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:46:07Z",
-      "run": 44621739907,
-      "request_ids": [
-        "req_01m7twc8g9e31t6030nyydr72e",
-        "req_01m7twc8khe2waysckm2egmys2",
-        "req_01m7twc9r3e8ns4xn7w05r0m8y"
-      ],
+      "tested_at": "2026-11-23T20:44:26Z",
+      "run": 45261332166,
+      "request_ids": [],
       "measured_on": "linux"
     },
     {
@@ -351,19 +402,17 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "certified",
-      "result": "pass",
-      "reason": null,
+      "result": "not_run",
+      "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:29:11Z",
-      "run": 44533659950,
+      "tested_at": "2026-11-23T20:44:58Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7szxmr7e7xtmfdgf5x5yxa2",
-        "req_01m7szxmtxewsv70p2yg1dxdh6",
-        "req_01m7szyatwewbvdpvx1c6wpphs"
+        "req_01m852e9zqeq3rafnw964405tj"
       ],
       "measured_on": "linux"
     },
@@ -459,20 +508,16 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "gemma-4-e4b-it-8b",
       "model_revision": "gemma-4-e4b-it-8b-4ecc2ba6",
       "pool": "certified",
-      "result": "pass",
-      "reason": null,
+      "result": "fail",
+      "reason": "timeout",
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:29:41Z",
-      "run": 44533659950,
-      "request_ids": [
-        "req_01m7szz3wnesdbqzn7sfjj2ns7",
-        "req_01m7szz3zae4ksqz7x7pqvc18r",
-        "req_01m7szz9r6e03spzy3d2yq2tzj"
-      ],
+      "tested_at": "2026-11-23T20:49:13Z",
+      "run": 45261332166,
+      "request_ids": [],
       "measured_on": "linux"
     },
     {
@@ -534,18 +579,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "glm-5.2",
       "model_revision": "glm-5.2-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:46:31Z",
-      "run": 44621739907,
+      "tested_at": "2026-11-23T20:49:18Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7twcj94en28kv2yrbdbtqwq",
-        "req_01m7twck5fen6t2cqr1a1wn3tr"
+        "req_01m852q20de5ntfx3ma8baw5j8",
+        "req_01m852q24heak842vvjzk7tx2a",
+        "req_01m852q426ey29xfpa7w5assfy"
       ],
       "measured_on": "linux"
     },
@@ -677,16 +723,20 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "gpt-oss-120b",
       "model_revision": "gpt-oss-120b-b5c939de",
       "pool": "certified",
-      "result": "fail",
-      "reason": "timeout",
+      "result": "pass",
+      "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-18T23:40:15Z",
-      "run": 44421826724,
-      "request_ids": [],
+      "tested_at": "2026-11-23T20:52:20Z",
+      "run": 45261332166,
+      "request_ids": [
+        "req_01m852qc9ye42snpy4bs9mhh9r",
+        "req_01m852qcdqekbvbk5g781a931k",
+        "req_01m852wfkge0zap7c0hg7rhexg"
+      ],
       "measured_on": "linux"
     },
     {
@@ -782,20 +832,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "gpt-oss-20b",
       "model_revision": "gpt-oss-20b-6cee5e81",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:30:23Z",
-      "run": 44533659950,
+      "tested_at": "2026-11-23T20:52:24Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7t00hq0ekmrybagdxgegms2",
-        "req_01m7t00hmke9z9z2782e8kncwz",
-        "req_01m7t00jgceyvr4cvj14w0hzqp",
-        "req_01m7t00khnetpvtnw03dzqe20w"
+        "req_01m852wsape6g84peva0recfjb",
+        "req_01m852ws6se0jbxe01bv8kgvdt",
+        "req_01m852wtcwegdvczbvmc8ypf6y"
       ],
       "measured_on": "linux"
     },
@@ -893,17 +942,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "granite-4.2-8b",
       "model_revision": "granite-4.2-8b-a7042144",
       "pool": "certified",
-      "result": "fail",
-      "reason": "timeout",
+      "result": "pass",
+      "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-18T23:45:02Z",
-      "run": 44421826724,
+      "tested_at": "2026-11-23T20:52:47Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7rghkwne5zrj7wnb3b6hjkz"
+        "req_01m852wx64e0b89gbpnbt6pc5p",
+        "req_01m852wxadejvsj5vq4ej5cqwy",
+        "req_01m852xd7jed1v7ahbng6zpvy3"
       ],
       "measured_on": "linux"
     },
@@ -965,19 +1016,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "huihui-qwen3.8-27b-abliterated",
       "model_revision": "huihui-qwen3.8-27b-abliterated-739e3c5b",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:30:51Z",
-      "run": 44533659950,
+      "tested_at": "2026-11-23T20:53:37Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7t01727emgaxdgy1eex1s7r",
-        "req_01m7t0174serm8xzgpkqpp4mw1",
-        "req_01m7t01bf9e9d84rz0m7aazggt"
+        "req_01m852yvwnek4tmfen6k0cb0ym",
+        "req_01m852yw18efaasr2b3qmfy546",
+        "req_01m852yzycezra30azenhvhr63"
       ],
       "measured_on": "linux"
     },
@@ -1020,19 +1071,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "kimi-k3",
       "model_revision": "kimi-k3-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:47:16Z",
-      "run": 44621739907,
+      "tested_at": "2026-11-23T20:53:42Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7tweb9wehsrba13yr3vtm31",
-        "req_01m7twebd2ee4bm34es811s507",
-        "req_01m7twed0ae2qsn7s075wkdgs6"
+        "req_01m852z3zhevb9tybaxve7ca6g",
+        "req_01m852z42xey5985c0s5c73f3q",
+        "req_01m852z5q3ejnaw4rhtqn10zhv"
       ],
       "measured_on": "linux"
     },
@@ -1075,19 +1126,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "kimi-k3.1-pro",
       "model_revision": "kimi-k3.1-pro-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:47:38Z",
-      "run": 44621739907,
+      "tested_at": "2026-11-23T20:53:48Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7twf05ge5n9y2v6t402akxc",
-        "req_01m7twf088e3csv9ak6x5wd077",
-        "req_01m7twf27pe4484n8gksqc726q"
+        "req_01m852z8p7es5rm85rsvedkytb",
+        "req_01m852z8w4epss1n3kbm27w1sc",
+        "req_01m852zbgjebfb6cedyfrrdnn3"
       ],
       "measured_on": "linux"
     },
@@ -1221,19 +1272,24 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "north-mini-code-1.0-30b",
       "model_revision": "north-mini-code-1.0-30b-d11e61a8",
       "pool": "certified",
-      "result": "pass",
-      "reason": null,
+      "result": "fail",
+      "reason": "tool_result_not_sent",
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:31:14Z",
-      "run": 44533659950,
+      "tested_at": "2026-11-23T20:55:55Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7t020zaenks1bj7mw26cdzx",
-        "req_01m7t02120e16v0w1a7me16bg5",
-        "req_01m7t023w7ey780p1xz729rqb2"
+        "req_01m852zepmeabay0gyx1cv0t3a",
+        "req_01m852zeswefm8mr2ebyvvar27",
+        "req_01m852zxwje1wsccah42px2w97",
+        "req_01m85300kkegqs15hcdxac915a",
+        "req_01m85302ksem5avpd8j4m6knk6",
+        "req_01m853056cetca2qbx0fry7pdj",
+        "req_01m853075ve8xrvbv5064fx1t0",
+        "req_01m8530ak1e6tt4043h8hvmeyc"
       ],
       "measured_on": "linux"
     },
@@ -1312,19 +1368,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "qwen2.5-7b-instruct",
       "model_revision": "qwen2.5-7b-instruct-a09a3545",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-18T17:26:00Z",
-      "run": 44357581542,
+      "tested_at": "2026-11-23T20:56:08Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7qv38qzezr9mpq5drd2v46y",
-        "req_01m7qv38vjeqdt5yqdkhb6yrrt",
-        "req_01m7qv39scey4rvsbx2h3h6exz"
+        "req_01m8533at0eagrm976fngc7qg0",
+        "req_01m8533axxe8jvshqkhhj9krhs",
+        "req_01m8533mq9ez9tvmm4pfg53tp1"
       ],
       "measured_on": "linux"
     },
@@ -1403,17 +1459,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "qwen3-14b",
       "model_revision": "qwen3-14b-40c06982",
       "pool": "certified",
-      "result": "fail",
-      "reason": "timeout",
+      "result": "pass",
+      "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-18T17:31:04Z",
-      "run": 44357581542,
+      "tested_at": "2026-11-23T20:56:31Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7qv4xpketgbqzfdre0q6mpm"
+        "req_01m8533qd2eqf9ngvm4mdgbq1q",
+        "req_01m8533qgte12837p3qwjdj6xz",
+        "req_01m853481pe3fvt75v6kyn085c"
       ],
       "measured_on": "linux"
     },
@@ -1510,19 +1568,18 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-18T17:32:32Z",
-      "run": 44357581542,
+      "tested_at": "2026-11-23T20:57:03Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7qvf6nyeve9qpnp7cbdwkt7",
-        "req_01m7qvf6sfexp8ba9y3mr6m1ed",
-        "req_01m7qvf813eeg820bjztppbqv7"
+        "req_01m8534drdex4amc14x2yrex8d",
+        "req_01m8534vsze5m8z3sem0hpvewf"
       ],
       "measured_on": "linux"
     },
@@ -1600,19 +1657,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "qwen3-32b",
       "model_revision": "qwen3-32b-9216db57",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:33:09Z",
-      "run": 44533659950,
+      "tested_at": "2026-11-23T20:57:48Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7t04hmeeptv0k92wqg2kebm",
-        "req_01m7t04hq8egavtmq2s0s4ebt5",
-        "req_01m7t0526eeakr291khe32kx1k"
+        "req_01m8535dawe24ttmecaycz9p9v",
+        "req_01m8535decertakbkk3e794072",
+        "req_01m8536fdeetpaw57krvyes8j4"
       ],
       "measured_on": "linux"
     },
@@ -1708,19 +1765,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "qwen3.6-40b-uncensor",
       "model_revision": "qwen3.6-40b-uncensor-bc23dff6",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T13:33:47Z",
-      "run": 44533659950,
+      "tested_at": "2026-11-23T20:59:01Z",
+      "run": 45261332166,
       "request_ids": [
-        "req_01m7t063w5e2mrp1h7tmhfbk2c",
-        "req_01m7t068fwe2mr8beqn0jhmmm7",
-        "req_01m7t063ssecksn3hyvqy3skv7"
+        "req_01m8538nffe74ssk25bbxsy2gj",
+        "req_01m8538nm5e54tmbwqpz5d7zcj",
+        "req_01m8538vcbef2863cmwz0jr1ct"
       ],
       "measured_on": "linux"
     },
