@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 20,
-  "issued_at": "2026-11-22T16:39:58Z",
+  "sequence": 21,
+  "issued_at": "2026-11-23T15:12:02Z",
   "agents": {
     "aider": [
       {
@@ -406,24 +406,24 @@
     "opencode": [
       {
         "first": "2.2.5",
-        "last": "2.3.2",
-        "measured": "capture tests of each release in run 44260786551, 2026-11-18, on macOS arm64",
+        "last": "2.4.0",
+        "measured": "capture tests of each release in run 45199153591, 2026-11-23, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "2.2.6",
-        "last": "2.3.2",
-        "measured": "capture tests of each release in run 44260786551, 2026-11-18, on Linux x64",
+        "last": "2.4.0",
+        "measured": "capture tests of each release in run 45199153591, 2026-11-23, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "2.2.7",
-        "last": "2.3.2",
-        "measured": "capture tests of each release in run 44260786551, 2026-11-18, on Windows x64",
+        "last": "2.4.0",
+        "measured": "capture tests of each release in run 45199153591, 2026-11-23, on Windows x64",
         "platforms": [
           "windows"
         ]
