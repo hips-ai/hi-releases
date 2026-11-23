@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a vulnerability
+    url: https://hips.com/security
+    about: Email security@hips.com, never a public issue, for a security problem.
+  - name: Documentation
+    url: https://hips.com/docs/cli
+    about: How to install hi, sign in and start coding agents with HIPS models.

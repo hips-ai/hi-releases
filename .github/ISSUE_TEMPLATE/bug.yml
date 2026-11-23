@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in hi does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Never paste an API key, a sign-in token, a prompt, a model's answer or the contents of your files. A request id (`req_...`) is enough for HIPS to find a request. For a security problem, email security@hips.com instead.
+  - type: input
+    id: hi-version
+    attributes:
+      label: hi version
+      description: What `hi --version` prints.
+      placeholder: hi 0.1.18
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      placeholder: macOS 15 on Apple silicon
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Coding agent and its version
+      description: What the agent's own version command prints, for example `codex --version`. Leave it empty if no agent was involved.
+      placeholder: codex-cli 0.171.0
+  - type: textarea
+    id: command
+    attributes:
+      label: The command you ran
+      description: Leave out keys, tokens and private paths.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What hi printed
+      description: The error, and the request id (`req_...`) if one was shown.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: fix
+    attributes:
+      label: A fix you have in mind
+      description: The source of hi is not public, so this repository takes no pull requests. Describe the change here instead.
+  - type: checkboxes
+    id: nothing-secret
+    attributes:
+      label: Before you submit
+      options:
+        - label: This issue holds no API key, sign-in token, prompt, model answer or file contents.
+          required: true
