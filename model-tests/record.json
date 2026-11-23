@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 30,
-  "issued_at": "2026-11-21T17:00:39Z",
+  "sequence": 31,
+  "issued_at": "2026-11-23T14:56:30Z",
   "results": [
     {
       "agent": "claude",
@@ -165,61 +165,6 @@
         "req_01m7tway1tekw9bm3zym5ndm4w",
         "req_01m7tway4mer6b6zfa1kegbqq0",
         "req_01m7twazkye698cbf2fxrj32nt"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "claude",
-      "agent_name": "Claude Code",
-      "agent_version": "2.1.330",
-      "model": "deepseek-v4-pro-0813",
-      "model_revision": "deepseek-v4-pro-0813-1",
-      "pool": "certified",
-      "result": "pass",
-      "reason": null,
-      "gateway_code": null,
-      "tested_at": "2026-11-21T08:57:44Z",
-      "run": 44887191646,
-      "request_ids": [
-        "req_01m7yn6nnyetq9q9fnnn270v9x",
-        "req_01m7yn6snqe6qbtncwndx4r6kf"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "codex",
-      "agent_name": "Codex",
-      "agent_version": "0.171.0",
-      "model": "deepseek-v4-pro-0813",
-      "model_revision": "deepseek-v4-pro-0813-1",
-      "pool": "certified",
-      "result": "pass",
-      "reason": null,
-      "gateway_code": null,
-      "tested_at": "2026-11-20T12:16:54Z",
-      "run": 44734208677,
-      "request_ids": [
-        "req_01m7we6m54ebkv0y0d4tm9s3ra",
-        "req_01m7we6r7jexb88dd8hyww925z"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "opencode",
-      "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
-      "model": "deepseek-v4-pro-0813",
-      "model_revision": "deepseek-v4-pro-0813-1",
-      "pool": "certified",
-      "result": "pass",
-      "reason": null,
-      "gateway_code": null,
-      "tested_at": "2026-11-19T21:45:49Z",
-      "run": 44621739907,
-      "request_ids": [
-        "req_01m7twbhsje3rar0kfhefwvy5a",
-        "req_01m7twbhwceps9cgtqsvzjhxdz",
-        "req_01m7twbktkex68zscde4nr6n1h"
       ],
       "measured_on": "linux"
     },
