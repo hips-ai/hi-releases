@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 32,
-  "issued_at": "2026-11-23T20:59:01Z",
+  "sequence": 33,
+  "issued_at": "2026-11-24T03:07:09Z",
   "results": [
     {
       "agent": "claude",
@@ -42,20 +42,16 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "deepseek-v4-flash-0423",
       "model_revision": "deepseek-v4-flash-0423-1",
       "pool": "certified",
-      "result": "pass",
-      "reason": null,
+      "result": "fail",
+      "reason": "timeout",
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:45:14Z",
-      "run": 44621739907,
-      "request_ids": [
-        "req_01m7twan0zew8bp28tfxxet2vx",
-        "req_01m7twan3qek0bcy8yttrahf9y",
-        "req_01m7twanzje22akzqhwaz2yv6k"
-      ],
+      "tested_at": "2026-11-24T03:02:03Z",
+      "run": 45316002900,
+      "request_ids": [],
       "measured_on": "linux"
     },
     {
@@ -406,13 +402,15 @@
       "model": "gemma-4-31b-it",
       "model_revision": "gemma-4-31b-it-842da379",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "pass",
+      "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-23T20:44:58Z",
-      "run": 45261332166,
+      "tested_at": "2026-11-24T03:02:41Z",
+      "run": 45316002900,
       "request_ids": [
-        "req_01m852e9zqeq3rafnw964405tj"
+        "req_01m85r1qxge62b05xqa8ap3hgv",
+        "req_01m85r285feqd8ttp6sge83nse",
+        "req_01m85r1qtxes3tth9kdfh0pn12"
       ],
       "measured_on": "linux"
     },
@@ -634,19 +632,19 @@
     {
       "agent": "opencode",
       "agent_name": "OpenCode",
-      "agent_version": "2.3.2",
+      "agent_version": "2.4.0",
       "model": "glm-5.3",
       "model_revision": "glm-5.3-1",
       "pool": "certified",
       "result": "pass",
       "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-19T21:46:43Z",
-      "run": 44621739907,
+      "tested_at": "2026-11-24T03:02:46Z",
+      "run": 45316002900,
       "request_ids": [
-        "req_01m7twdav0efrrzfhrtep2j14c",
-        "req_01m7twdb0rev0txtcck890rxhx",
-        "req_01m7twdcmfey49dtqgymrzw9ek"
+        "req_01m85r2xjse1dt6y437amqfces",
+        "req_01m85r2xkfea0rkz4kev2e3xw4",
+        "req_01m85r2z2vebbvrtfkhrc760fr"
       ],
       "measured_on": "linux"
     },
@@ -984,14 +982,13 @@
       "model": "huihui-qwen3.8-27b-abliterated",
       "model_revision": "huihui-qwen3.8-27b-abliterated-739e3c5b",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "fail",
+      "reason": "timeout",
       "gateway_code": null,
-      "tested_at": "2026-11-21T08:59:24Z",
-      "run": 44887191646,
+      "tested_at": "2026-11-24T03:07:01Z",
+      "run": 45316002900,
       "request_ids": [
-        "req_01m7yn9ccfene9jtrpjgvt89bq",
-        "req_01m7yn9vx9ec3s1andz262hp53"
+        "req_01m85r319keyesq9csvr3wbqwp"
       ],
       "measured_on": "linux"
     },
