@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 40,
-  "issued_at": "2026-11-26T03:18:50Z",
+  "sequence": 41,
+  "issued_at": "2026-11-26T13:20:02Z",
   "results": [
     {
       "agent": "claude",
@@ -934,6 +934,61 @@
       "agent": "claude",
       "agent_name": "Claude Code",
       "agent_version": "2.1.332",
+      "model": "inkling-2-mini",
+      "model_revision": "inkling-2-mini-1",
+      "pool": "certified",
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-26T13:18:43Z",
+      "run": 45827509315,
+      "request_ids": [
+        "req_01m8c0476yek68js6gas7n2fb4",
+        "req_01m8c048pnek2t663hvf66dtbs"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.172.0",
+      "model": "inkling-2-mini",
+      "model_revision": "inkling-2-mini-1",
+      "pool": "certified",
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-26T13:18:45Z",
+      "run": 45827509315,
+      "request_ids": [
+        "req_01m8c04a4je0bs913m8ds6tgxf",
+        "req_01m8c04avke4hs7qxawcme5nx8"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.4.1",
+      "model": "inkling-2-mini",
+      "model_revision": "inkling-2-mini-1",
+      "pool": "certified",
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-26T13:18:48Z",
+      "run": 45827509315,
+      "request_ids": [
+        "req_01m8c04cmvesg9r3wsa731reg5",
+        "req_01m8c04cq5e3jvxvbset04tnek",
+        "req_01m8c04daveerrxz95tsstr4fw"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "claude",
+      "agent_name": "Claude Code",
+      "agent_version": "2.1.332",
       "model": "kimi-k3",
       "model_revision": "kimi-k3-1",
       "pool": "certified",
@@ -1364,96 +1419,6 @@
         "req_01m7bt2ng4e3jtqdehr6g0bcb0",
         "req_01m7bt2nk6e848t5259q54j7mh",
         "req_01m7bt2nmxezaspy90xf1gqfr3"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "claude",
-      "agent_name": "Claude Code",
-      "agent_version": "2.1.325",
-      "model": "qwen3-32b",
-      "model_revision": "qwen3-32b-9216db57",
-      "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-16T04:45:43Z",
-      "run": 43804343184,
-      "request_ids": [
-        "req_01m7hasrqhe1qa7m5bvn3hy7p7"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "codex",
-      "agent_name": "Codex",
-      "agent_version": "0.172.0",
-      "model": "qwen3-32b",
-      "model_revision": "qwen3-32b-9216db57",
-      "pool": "certified",
-      "result": "pass",
-      "reason": null,
-      "gateway_code": null,
-      "tested_at": "2026-11-24T05:23:14Z",
-      "run": 45330436483,
-      "request_ids": [
-        "req_01m860336je849z97hxym3eynb",
-        "req_01m8603zpjermt33g4521dazvj"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "codex",
-      "agent_name": "Codex",
-      "agent_version": "0.169.0",
-      "model": "qwen3-32b",
-      "model_revision": "qwen3-32b-9216db57",
-      "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-16T04:45:44Z",
-      "run": 43804343184,
-      "request_ids": [
-        "req_01m7hassnbesasdfhq7fvzn2t0"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "opencode",
-      "agent_name": "OpenCode",
-      "agent_version": "2.4.1",
-      "model": "qwen3-32b",
-      "model_revision": "qwen3-32b-9216db57",
-      "pool": "certified",
-      "result": "pass",
-      "reason": null,
-      "gateway_code": null,
-      "tested_at": "2026-11-24T05:23:45Z",
-      "run": 45330436483,
-      "request_ids": [
-        "req_01m86048rsen8rwnwcdckgag1m",
-        "req_01m86048wee1fr5j863vz9669e",
-        "req_01m8604yzyehf9ymbdp4avjq1b"
-      ],
-      "measured_on": "linux"
-    },
-    {
-      "agent": "opencode",
-      "agent_name": "OpenCode",
-      "agent_version": "2.3.0",
-      "model": "qwen3-32b",
-      "model_revision": "qwen3-32b-9216db57",
-      "pool": "community",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-16T04:45:46Z",
-      "run": 43804343184,
-      "request_ids": [
-        "req_01m7hastyre34rwadxvs21a68f",
-        "req_01m7hasv22ejp89q6r8q5q8w4w",
-        "req_01m7hasv3we65bj2r3ybvz14r9"
       ],
       "measured_on": "linux"
     },
