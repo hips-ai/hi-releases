@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 41,
-  "issued_at": "2026-11-26T13:20:02Z",
+  "sequence": 42,
+  "issued_at": "2026-11-26T14:01:46Z",
   "results": [
     {
       "agent": "claude",
@@ -1167,17 +1167,13 @@
       "model": "ministral-3-8b-instruct-2512",
       "model_revision": "ministral-3-8b-instruct-2512-5b26027e",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "model_loading",
-      "tested_at": "2026-11-26T03:18:13Z",
-      "run": 45747627708,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-26T14:01:39Z",
+      "run": 45834563594,
       "request_ids": [
-        "req_01m8axn21me7rvqp2cc1zg86nj",
-        "req_01m8axnzryeawrmy8dxb018jxp",
-        "req_01m8axpxkne9qrh7s30mnz65s6",
-        "req_01m8axqvg6en3vyyywyh6580aj",
-        "req_01m8axrg6tec4tbr329n4m594y"
+        "req_01m8c2hzcne189zkzjnt6twsp1"
       ],
       "measured_on": "linux"
     },
