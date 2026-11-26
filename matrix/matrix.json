@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 24,
-  "issued_at": "2026-11-25T14:54:51Z",
+  "sequence": 25,
+  "issued_at": "2026-11-26T00:50:39Z",
   "agents": {
     "aider": [
       {
@@ -248,6 +248,22 @@
         "first": "1.61.0",
         "last": "1.61.0",
         "measured": "capture tests of each release in run 45635496253, 2026-11-25, on macOS arm64",
+        "platforms": [
+          "macos"
+        ]
+      },
+      {
+        "first": "1.61.1",
+        "last": "1.61.1",
+        "measured": "capture tests of each release in run 45729298606, 2026-11-26, on Linux x64",
+        "platforms": [
+          "linux"
+        ]
+      },
+      {
+        "first": "1.61.1",
+        "last": "1.61.1",
+        "measured": "capture tests of each release in run 45729298606, 2026-11-26, on macOS arm64",
         "platforms": [
           "macos"
         ]
