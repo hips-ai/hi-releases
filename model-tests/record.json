@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 39,
-  "issued_at": "2026-11-25T20:24:38Z",
+  "sequence": 40,
+  "issued_at": "2026-11-26T03:18:50Z",
   "results": [
     {
       "agent": "claude",
@@ -1112,13 +1112,17 @@
       "model": "ministral-3-8b-instruct-2512",
       "model_revision": "ministral-3-8b-instruct-2512-5b26027e",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-24T15:00:08Z",
-      "run": 45420002206,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_loading",
+      "tested_at": "2026-11-26T03:18:13Z",
+      "run": 45747627708,
       "request_ids": [
-        "req_01m8714hktezysrzat5q9ttwkz"
+        "req_01m8axn21me7rvqp2cc1zg86nj",
+        "req_01m8axnzryeawrmy8dxb018jxp",
+        "req_01m8axpxkne9qrh7s30mnz65s6",
+        "req_01m8axqvg6en3vyyywyh6580aj",
+        "req_01m8axrg6tec4tbr329n4m594y"
       ],
       "measured_on": "linux"
     },
@@ -1129,15 +1133,16 @@
       "model": "ministral-3-8b-instruct-2512",
       "model_revision": "ministral-3-8b-instruct-2512-5b26027e",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "fail",
+      "reason": "tool_result_not_sent",
       "gateway_code": null,
-      "tested_at": "2026-11-24T15:00:10Z",
-      "run": 45420002206,
+      "tested_at": "2026-11-26T03:18:44Z",
+      "run": 45747627708,
       "request_ids": [
-        "req_01m8714k4eefhazwbeb23ma3h9",
-        "req_01m8714k6ke9dr742mp5x462se",
-        "req_01m8714k70ejbr21a7v09987n2"
+        "req_01m8axrs1heh5b9dsq31bx1wf3",
+        "req_01m8axrs4pesebwtfde6n9cq90",
+        "req_01m8axs2nee1pvrz7vmk495a1y",
+        "req_01m8axscfaefd9n9t9eksrkxgj"
       ],
       "measured_on": "linux"
     },
