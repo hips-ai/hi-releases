@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 46,
-  "issued_at": "2026-11-27T14:30:47Z",
+  "sequence": 47,
+  "issued_at": "2026-11-27T23:14:48Z",
   "results": [
     {
       "agent": "claude",
@@ -1228,14 +1228,16 @@
       "model": "muse-glimmer-30b",
       "model_revision": "muse-glimmer-30b-1297fd7d",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-27T14:30:00Z",
-      "run": 46016142175,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "context_length_exceeded",
+      "tested_at": "2026-11-27T23:03:30Z",
+      "run": 46080099160,
       "request_ids": [
-        "req_01m8epk2c0e0sva1nst4v2790d",
-        "req_01m8epk27deq2am7zaz21wcaha"
+        "req_01m8fkzadce5d9x2z334ken65f",
+        "req_01m8fkzagne0bs5sf0s8h1jr4v",
+        "req_01m8fkzak3ezcrjkvexp9bv304",
+        "req_01m8fkzab7ehssnq78962h0a7z"
       ],
       "measured_on": "linux"
     },
@@ -1342,6 +1344,80 @@
         "req_01m7bsh613eaw818ksdacxfm7c",
         "req_01m7bsh649ejwbr6bzdqfges1b",
         "req_01m7bsh64deajbnrbehqeja8ej"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.172.0",
+      "model": "nvidia-nemotron-3-nano-30b-a3b-bf16",
+      "model_revision": "nvidia-nemotron-3-nano-30b-a3b-bf16-bf77c317",
+      "pool": "certified",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-27T23:04:03Z",
+      "run": 46080099160,
+      "request_ids": [
+        "req_01m8fkzvape89ser5krnqda6gp"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.4.2",
+      "model": "nvidia-nemotron-3-nano-30b-a3b-bf16",
+      "model_revision": "nvidia-nemotron-3-nano-30b-a3b-bf16-bf77c317",
+      "pool": "certified",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-27T23:04:49Z",
+      "run": 46080099160,
+      "request_ids": [
+        "req_01m8fm0t6bex7rghwj2wjjwbxb"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.172.0",
+      "model": "nvidia-nemotron-3.5-lightning-30b-a3b-bf16",
+      "model_revision": "nvidia-nemotron-3.5-lightning-30b-a3b-bf16-a9904d24",
+      "pool": "certified",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_loading",
+      "tested_at": "2026-11-27T23:06:54Z",
+      "run": 46080099160,
+      "request_ids": [
+        "req_01m8fm26s1e80an6psafdaqp0p",
+        "req_01m8fm34dve69sbcz9jwy0wjsb",
+        "req_01m8fm420ve7sad1hktnzp8tve",
+        "req_01m8fm4znseqnt68pyamwatjpr",
+        "req_01m8fm5s8jes0tehbsj919h7q7"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.4.2",
+      "model": "nvidia-nemotron-3.5-lightning-30b-a3b-bf16",
+      "model_revision": "nvidia-nemotron-3.5-lightning-30b-a3b-bf16-a9904d24",
+      "pool": "certified",
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-27T23:07:24Z",
+      "run": 46080099160,
+      "request_ids": [
+        "req_01m8fm61cjek1bgyzeg6fthhjm",
+        "req_01m8fm61gcejevpqq406jqkh72",
+        "req_01m8fm6q3kej9a45qannrsmv76"
       ],
       "measured_on": "linux"
     },
@@ -1478,13 +1554,17 @@
       "model": "qwen3.5-9b",
       "model_revision": "qwen3.5-9b-c2022362",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-24T15:00:36Z",
-      "run": 45420002206,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_loading",
+      "tested_at": "2026-11-27T23:09:18Z",
+      "run": 46080099160,
       "request_ids": [
-        "req_01m8715chse9t8j31fmmyam5gw"
+        "req_01m8fm6xxpexkttprgvvvphhp0",
+        "req_01m8fm7vj6eg0skejsq9gejyyk",
+        "req_01m8fm8s6sesbvm0xnecw3qk56",
+        "req_01m8fm9ptvecebt6v8rp3ghyyd",
+        "req_01m8fma57qee8szf3bekbdg4p7"
       ],
       "measured_on": "linux"
     },
@@ -1495,15 +1575,48 @@
       "model": "qwen3.5-9b",
       "model_revision": "qwen3.5-9b-c2022362",
       "pool": "certified",
+      "result": "fail",
+      "reason": "timeout",
+      "gateway_code": null,
+      "tested_at": "2026-11-27T23:13:33Z",
+      "run": 46080099160,
+      "request_ids": [
+        "req_01m8fmaeaweezr8he6y9j95121"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.172.0",
+      "model": "qwen3.6-35b-a3b",
+      "model_revision": "qwen3.6-35b-a3b-345d467b",
+      "pool": "certified",
       "result": "not_run",
       "reason": "no_capacity",
       "gateway_code": null,
-      "tested_at": "2026-11-26T22:54:59Z",
-      "run": 45906082133,
+      "tested_at": "2026-11-27T23:14:04Z",
+      "run": 46080099160,
       "request_ids": [
-        "req_01m8d13en8ehfvhp7wn1sdb6pa",
-        "req_01m8d13eqre9ksc4rghywhw6rp",
-        "req_01m8d13eqye06awbqjr9qas5q0"
+        "req_01m8fmj6pme5dsxpsesb2d79g0"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.4.2",
+      "model": "qwen3.6-35b-a3b",
+      "model_revision": "qwen3.6-35b-a3b-345d467b",
+      "pool": "certified",
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-27T23:14:46Z",
+      "run": 46080099160,
+      "request_ids": [
+        "req_01m8fmk5jaeqvrrafbvfecnzbc",
+        "req_01m8fmk5g1e4488bphphfjwnnx"
       ],
       "measured_on": "linux"
     },
