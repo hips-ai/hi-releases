@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 43,
-  "issued_at": "2026-11-26T22:55:44Z",
+  "sequence": 44,
+  "issued_at": "2026-11-27T00:42:30Z",
   "results": [
     {
       "agent": "claude",
@@ -846,16 +846,15 @@
       "model": "granite-4.2-8b",
       "model_revision": "granite-4.2-8b-a7042144",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "model_loading",
-      "tested_at": "2026-11-26T22:49:40Z",
-      "run": 45906082133,
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-27T00:40:45Z",
+      "run": 45918000729,
       "request_ids": [
-        "req_01m8d0rmvrev9r8qhj710br19z",
-        "req_01m8d0rqmme9ebs1p8z0dseesz",
-        "req_01m8d0rmsdekdtzg2qtrrcf4h1",
-        "req_01m8d0snc0espb3ge5rb5tt5r3"
+        "req_01m8d74xn8eh0tyd1yh1v01d3s",
+        "req_01m8d74xreep6byjj507kwf0eh",
+        "req_01m8d751nrevbt4m3vdetzmkk9"
       ],
       "measured_on": "linux"
     },
