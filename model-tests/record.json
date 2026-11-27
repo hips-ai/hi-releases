@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 45,
-  "issued_at": "2026-11-27T14:02:39Z",
+  "sequence": 46,
+  "issued_at": "2026-11-27T14:30:47Z",
   "results": [
     {
       "agent": "claude",
@@ -1174,18 +1174,14 @@
       "model": "ministral-3-8b-instruct-2512",
       "model_revision": "ministral-3-8b-instruct-2512-5b26027e",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "model_loading",
-      "tested_at": "2026-11-26T22:52:27Z",
-      "run": 45906082133,
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-27T14:29:43Z",
+      "run": 46016142175,
       "request_ids": [
-        "req_01m8d0v0d8e9nsdampgqf1j1c3",
-        "req_01m8d0vy0rez4a5xfvmjdedb82",
-        "req_01m8d0wvmfeaht39zwdwcyb3w9",
-        "req_01m8d0xs82e6pr8w52w4g7wvfp",
-        "req_01m8d0y9seewn8r8ww2hreskk7",
-        "req_01m8d0yjhwe45thxkgtm7cbsn3"
+        "req_01m8epjgrremcrp246fze3zx3g",
+        "req_01m8epjrt2e9p9cgepf72r38gv"
       ],
       "measured_on": "linux"
     },
@@ -1232,15 +1228,14 @@
       "model": "muse-glimmer-30b",
       "model_revision": "muse-glimmer-30b-1297fd7d",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "context_length_exceeded",
-      "tested_at": "2026-11-27T14:01:39Z",
-      "run": 46011794891,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-27T14:30:00Z",
+      "run": 46016142175,
       "request_ids": [
-        "req_01m8emz4b0ev6b4d10zaqpy0f1",
-        "req_01m8emz4fjen58z134nmyqn022",
-        "req_01m8emz4k3ebbbvad2ccj34xj7"
+        "req_01m8epk2c0e0sva1nst4v2790d",
+        "req_01m8epk27deq2am7zaz21wcaha"
       ],
       "measured_on": "linux"
     },
@@ -1428,17 +1423,15 @@
       "model": "qwen3-30b-a3b-instruct-2507-fp8",
       "model_revision": "qwen3-30b-a3b-instruct-2507-fp8-5a5a7763",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "model_loading",
-      "tested_at": "2026-11-26T22:54:56Z",
-      "run": 45906082133,
+      "result": "pass",
+      "reason": null,
+      "gateway_code": null,
+      "tested_at": "2026-11-27T14:30:10Z",
+      "run": 46016142175,
       "request_ids": [
-        "req_01m8d10emvejmawh4m25vs31c8",
-        "req_01m8d10ejeetf9t84awcq24pk7",
-        "req_01m8d11c9gee9vjk3bh0yyfw37",
-        "req_01m8d12cwje6hb0qjxxp788ja3",
-        "req_01m8d13ajde4x85r69ygwyct7d"
+        "req_01m8epkjsfebfrjv3gydkn1kn9",
+        "req_01m8epkjn6ex2b7c2553b995pq",
+        "req_01m8epksgeemg9a9wkdr78qjhk"
       ],
       "measured_on": "linux"
     },
@@ -1666,16 +1659,14 @@
       "model": "qwen3.8-27b",
       "model_revision": "qwen3.8-27b-37561816",
       "pool": "certified",
-      "result": "fail",
-      "reason": "gateway_refused",
-      "gateway_code": "context_length_exceeded",
-      "tested_at": "2026-11-27T14:02:39Z",
-      "run": 46011794891,
+      "result": "not_run",
+      "reason": "no_capacity",
+      "gateway_code": null,
+      "tested_at": "2026-11-27T14:30:29Z",
+      "run": 46016142175,
       "request_ids": [
-        "req_01m8en0z78ef4brp6n6w2rhawe",
-        "req_01m8en0z9ye58s2cbxx9m8bm0t",
-        "req_01m8en0zcje4jbj5xxnftjdyng",
-        "req_01m8en0z4ze7cacyvd8sdjchp0"
+        "req_01m8epm039efv8a74fyvzpcc11",
+        "req_01m8epm03mep1aczbtpdxgr0ry"
       ],
       "measured_on": "linux"
     }
