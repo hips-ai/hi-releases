@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 44,
-  "issued_at": "2026-11-27T00:42:30Z",
+  "sequence": 45,
+  "issued_at": "2026-11-27T14:02:39Z",
   "results": [
     {
       "agent": "claude",
@@ -1121,13 +1121,13 @@
       "model": "ministral-3-14b-instruct-2512",
       "model_revision": "ministral-3-14b-instruct-2512-29439f81",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "fail",
+      "reason": "no_tool_call",
       "gateway_code": null,
-      "tested_at": "2026-11-24T14:59:50Z",
-      "run": 45420002206,
+      "tested_at": "2026-11-27T14:00:24Z",
+      "run": 46011794891,
       "request_ids": [
-        "req_01m8714002e57bespafy128jy4"
+        "req_01m8emxap1ezyt30sbmetpbxay"
       ],
       "measured_on": "linux"
     },
@@ -1205,6 +1205,42 @@
         "req_01m8d0yw1eeeh8qqf7cer4wsqz",
         "req_01m8d0yw3ree19dv28emektnsf",
         "req_01m8d0z4fxe59v40p1s23w320m"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "codex",
+      "agent_name": "Codex",
+      "agent_version": "0.172.0",
+      "model": "muse-glimmer-30b",
+      "model_revision": "muse-glimmer-30b-1297fd7d",
+      "pool": "certified",
+      "result": "fail",
+      "reason": "no_tool_call",
+      "gateway_code": null,
+      "tested_at": "2026-11-27T14:01:22Z",
+      "run": 46011794891,
+      "request_ids": [
+        "req_01m8emz2qae0varnk2rcgq4m1w"
+      ],
+      "measured_on": "linux"
+    },
+    {
+      "agent": "opencode",
+      "agent_name": "OpenCode",
+      "agent_version": "2.4.2",
+      "model": "muse-glimmer-30b",
+      "model_revision": "muse-glimmer-30b-1297fd7d",
+      "pool": "certified",
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "context_length_exceeded",
+      "tested_at": "2026-11-27T14:01:39Z",
+      "run": 46011794891,
+      "request_ids": [
+        "req_01m8emz4b0ev6b4d10zaqpy0f1",
+        "req_01m8emz4fjen58z134nmyqn022",
+        "req_01m8emz4k3ebbbvad2ccj34xj7"
       ],
       "measured_on": "linux"
     },
@@ -1613,13 +1649,13 @@
       "model": "qwen3.8-27b",
       "model_revision": "qwen3.8-27b-37561816",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "fail",
+      "reason": "no_tool_call",
       "gateway_code": null,
-      "tested_at": "2026-11-25T05:07:15Z",
-      "run": 45551095475,
+      "tested_at": "2026-11-27T14:02:22Z",
+      "run": 46011794891,
       "request_ids": [
-        "req_01m88hkmzvev9vh2bxqzpxsrf8"
+        "req_01m8en0xjjezctwkn39dhgsb7q"
       ],
       "measured_on": "linux"
     },
@@ -1630,15 +1666,16 @@
       "model": "qwen3.8-27b",
       "model_revision": "qwen3.8-27b-37561816",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-26T22:55:44Z",
-      "run": 45906082133,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "context_length_exceeded",
+      "tested_at": "2026-11-27T14:02:39Z",
+      "run": 46011794891,
       "request_ids": [
-        "req_01m8d14v23e2nv12stmtqd6559",
-        "req_01m8d14v4cev5ae1mzmxwvp89b",
-        "req_01m8d14v55e7vb2zj7cx8t6hgf"
+        "req_01m8en0z78ef4brp6n6w2rhawe",
+        "req_01m8en0z9ye58s2cbxx9m8bm0t",
+        "req_01m8en0zcje4jbj5xxnftjdyng",
+        "req_01m8en0z4ze7cacyvd8sdjchp0"
       ],
       "measured_on": "linux"
     }
