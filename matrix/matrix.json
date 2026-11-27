@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 27,
-  "issued_at": "2026-11-27T00:55:40Z",
+  "sequence": 28,
+  "issued_at": "2026-11-27T14:18:18Z",
   "agents": {
     "aider": [
       {
@@ -102,16 +102,16 @@
       },
       {
         "first": "0.100.0",
-        "last": "0.103.0",
-        "measured": "capture tests of each release in run 45918000729, 2026-11-27, on macOS arm64",
+        "last": "0.104.0",
+        "measured": "capture tests of each release in run 46011794891, 2026-11-27, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "0.100.0",
-        "last": "0.103.0",
-        "measured": "capture tests of each release in run 45918000729, 2026-11-27, on Linux x64",
+        "last": "0.104.0",
+        "measured": "capture tests of each release in run 46011794891, 2026-11-27, on Linux x64",
         "platforms": [
           "linux"
         ]
@@ -436,26 +436,26 @@
     "kilo": [
       {
         "first": "7.8.27",
-        "last": "7.8.32",
-        "measured": "capture tests of each release in run 44779151860, 2026-11-20, on Windows x64",
+        "last": "7.8.40",
+        "measured": "capture tests of each release in run 46011794891, 2026-11-27, on Windows x64",
         "platforms": [
           "windows"
         ]
       },
       {
         "first": "7.8.27",
-        "last": "7.8.32",
-        "measured": "capture tests of each release in run 44779151860, 2026-11-20, on Linux x64",
+        "last": "7.8.40",
+        "measured": "capture tests of each release in run 46011794891, 2026-11-27, on macOS arm64",
         "platforms": [
-          "linux"
+          "macos"
         ]
       },
       {
         "first": "7.8.27",
-        "last": "7.8.32",
-        "measured": "capture tests of each release in run 44779151860, 2026-11-20, on macOS arm64",
+        "last": "7.8.40",
+        "measured": "capture tests of each release in run 46011794891, 2026-11-27, on Linux x64",
         "platforms": [
-          "macos"
+          "linux"
         ]
       }
     ],
