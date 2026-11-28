@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 28,
-  "issued_at": "2026-11-27T14:18:18Z",
+  "sequence": 29,
+  "issued_at": "2026-11-28T00:24:24Z",
   "agents": {
     "aider": [
       {
@@ -488,24 +488,24 @@
     "pi": [
       {
         "first": "1.5.0",
-        "last": "1.6.1",
-        "measured": "capture tests of each release in run 45635496253, 2026-11-25, on macOS arm64",
+        "last": "1.7.0",
+        "measured": "capture tests of each release in run 46086048879, 2026-11-28, on macOS arm64",
         "platforms": [
           "macos"
         ]
       },
       {
         "first": "1.5.0",
-        "last": "1.6.1",
-        "measured": "capture tests of each release in run 45635496253, 2026-11-25, on Linux x64",
+        "last": "1.7.0",
+        "measured": "capture tests of each release in run 46086048879, 2026-11-28, on Linux x64",
         "platforms": [
           "linux"
         ]
       },
       {
         "first": "1.5.2",
-        "last": "1.6.1",
-        "measured": "capture tests of each release in run 45635496253, 2026-11-25, on Windows x64",
+        "last": "1.7.0",
+        "measured": "capture tests of each release in run 46086048879, 2026-11-28, on Windows x64",
         "platforms": [
           "windows"
         ]
