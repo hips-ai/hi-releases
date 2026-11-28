@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 47,
-  "issued_at": "2026-11-27T23:14:48Z",
+  "sequence": 48,
+  "issued_at": "2026-11-28T00:21:13Z",
   "results": [
     {
       "agent": "claude",
@@ -1371,13 +1371,13 @@
       "model": "nvidia-nemotron-3-nano-30b-a3b-bf16",
       "model_revision": "nvidia-nemotron-3-nano-30b-a3b-bf16-bf77c317",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "fail",
+      "reason": "timeout",
       "gateway_code": null,
-      "tested_at": "2026-11-27T23:04:49Z",
-      "run": 46080099160,
+      "tested_at": "2026-11-28T00:12:32Z",
+      "run": 46086048879,
       "request_ids": [
-        "req_01m8fm0t6bex7rghwj2wjjwbxb"
+        "req_01m8fqpeezexxs2wjk57w4z3w9"
       ],
       "measured_on": "linux"
     },
@@ -1592,13 +1592,17 @@
       "model": "qwen3.6-35b-a3b",
       "model_revision": "qwen3.6-35b-a3b-345d467b",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-27T23:14:04Z",
-      "run": 46080099160,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_loading",
+      "tested_at": "2026-11-28T00:20:36Z",
+      "run": 46086048879,
       "request_ids": [
-        "req_01m8fmj6pme5dsxpsesb2d79g0"
+        "req_01m8fr9f7pes38kmkzpjzt3768",
+        "req_01m8fr9xfaejb9hsg3xcjatvvb",
+        "req_01m8frav94enqtbg169gdyvmjf",
+        "req_01m8frbs2tejmt59nh1yrgdn6d",
+        "req_01m8frcpxcemeabfd2vgqnw55g"
       ],
       "measured_on": "linux"
     },
@@ -1609,14 +1613,15 @@
       "model": "qwen3.6-35b-a3b",
       "model_revision": "qwen3.6-35b-a3b-345d467b",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
+      "result": "pass",
+      "reason": null,
       "gateway_code": null,
-      "tested_at": "2026-11-27T23:14:46Z",
-      "run": 46080099160,
+      "tested_at": "2026-11-28T00:21:12Z",
+      "run": 46086048879,
       "request_ids": [
-        "req_01m8fmk5jaeqvrrafbvfecnzbc",
-        "req_01m8fmk5g1e4488bphphfjwnnx"
+        "req_01m8frczg8e7jrbbsc8ybxz418",
+        "req_01m8frczkyekmv4pxxpj4zj6wf",
+        "req_01m8frdnxzeb6b44fx2rb10vdm"
       ],
       "measured_on": "linux"
     },
