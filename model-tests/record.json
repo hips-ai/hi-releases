@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "sequence": 48,
-  "issued_at": "2026-11-28T00:21:13Z",
+  "sequence": 49,
+  "issued_at": "2026-11-28T05:10:24Z",
   "results": [
     {
       "agent": "claude",
@@ -1777,14 +1777,17 @@
       "model": "qwen3.8-27b",
       "model_revision": "qwen3.8-27b-37561816",
       "pool": "certified",
-      "result": "not_run",
-      "reason": "no_capacity",
-      "gateway_code": null,
-      "tested_at": "2026-11-27T14:30:29Z",
-      "run": 46016142175,
+      "result": "fail",
+      "reason": "gateway_refused",
+      "gateway_code": "model_loading",
+      "tested_at": "2026-11-28T05:10:24Z",
+      "run": 46110224996,
       "request_ids": [
-        "req_01m8epm039efv8a74fyvzpcc11",
-        "req_01m8epm03mep1aczbtpdxgr0ry"
+        "req_01m8g8zjerebmrtbv38adk94nh",
+        "req_01m8g8zjgne2wvawwbv7r92zv0",
+        "req_01m8g8zjjmeb4swn7befss611f",
+        "req_01m8g8zjk9ers9pr2at3rxfjmy",
+        "req_01m8g8zjs2ewfthjcxzqw0h2rq"
       ],
       "measured_on": "linux"
     }
